@@ -127,11 +127,11 @@
                                                 </ul>
                                             </li>
                                             
-                                            <li><a href="blog-left-image.html">Publications</a></li>
+                                            <li><a href="#">Publications</a></li>
                                             
-                                            <li><a href="aboutus-1.html">A Propos</a></li>
+                                            <li><a href="#">A Propos</a></li>
                                            
-                                            <li><a href="contact-us.html">Nous contacter</a></li>
+                                            <li><a href="#">Nous contacter</a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- site-navigation end-->
@@ -143,7 +143,6 @@
         
         </header><!--header end-->
 
-        
         <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery">
             <!-- START REVOLUTION SLIDER 5.4.8 auto mode -->
             <div id="rev_slider_4_1" class="rev_slider fullwidthabanner rev_slider_4_1_height" data-version="5.4.8.1">

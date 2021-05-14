@@ -265,7 +265,7 @@
                             >NOS PRODUITS </a>
 
                         <!-- LAYER NR. 6 -->
-                        <a class="tp-caption white-flatborder-button tp-resizeme" href="contact-us.html" target="_blank"             
+                        <a class="tp-caption white-flatborder-button tp-resizeme" href="#" target="_blank"             
                             id="slide-1-layer-6" 
                             data-x="['left','left','center','center']" data-hoffset="['231','231','0','0']" 
                             data-y="['top','top','middle','middle']" data-voffset="['452','452','101','82']" 
@@ -907,7 +907,7 @@
                             </div> 
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Moussa TRAORÉ</a></h5>
+                                    <h5><a href="#">Moussa TRAORÉ</a></h5>
                                 </div>
                                 <p class="category">Co-Fondateur</p>
                             </div>
@@ -926,7 +926,7 @@
                             </div> 
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Ousmane BAMBA</a></h5>
+                                    <h5><a href="#">Ousmane BAMBA</a></h5>
                                 </div>
                                 <p class="category">Co-fondateur</p>
                             </div>
@@ -945,7 +945,7 @@
                             </div> 
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Dro Kieu DÉLI</a></h5>
+                                    <h5><a href="#">Dro Kieu DÉLI</a></h5>
                                 </div>
                                 <p class="category">Développeur</p>
                             </div>
@@ -1080,7 +1080,7 @@
                             </div>
                             <div class="featured-content featured-content-post">
                                 <div class="post-title featured-title">
-                                    <h5><a href="single-blog.html">Titre 1</a></h5>
+                                    <h5><a href="#">Titre 1</a></h5>
                                 </div>
                                 <div class="post-meta">
                                     <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
@@ -1095,7 +1095,7 @@
                             </div>
                             <div class="featured-content featured-content-post">
                                 <div class="post-title featured-title">
-                                    <h5><a href="single-blog.html">Titre 2</a></h5>
+                                    <h5><a href="#">Titre 2</a></h5>
                                 </div>
                                 <div class="post-meta">
                                     <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
@@ -1110,7 +1110,7 @@
                             </div>
                             <div class="featured-content featured-content-post">
                                 <div class="post-title featured-title">
-                                    <h5><a href="single-blog.html">Titre 3</a></h5>
+                                    <h5><a href="#">Titre 3</a></h5>
                                 </div>
                                 <div class="post-meta">
                                     <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
@@ -1130,7 +1130,7 @@
                             </div>
                             <div class="featured-content featured-content-post">
                                 <div class="post-title featured-title">
-                                    <h5><a href="single-blog.html">Seminar for Business Development</a></h5>
+                                    <h5><a href="#">Seminar for Business Development</a></h5>
                                 </div>
                                 <div class="post-meta">
                                     <span class="ttm-meta-line"><i class="fa fa-calendar"></i>March 24, 2019</span>
@@ -1253,21 +1253,21 @@
                             <h3 class="widget-title">Derniers articles</h3>
                             <ul class="widget-post ttm-recent-post-list">
                                 <li>
-                                    <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <a href="#"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
                                     <span class="post-date">07 Mai 2021</span>
-                                    <a href="single-blog.html">Article 1</a>
+                                    <a href="#">Article 1</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <a href="#"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
                                     <span class="post-date">07 Mai 2021</span>
-                                    <a href="single-blog.html">Article 2</a>
+                                    <a href="#">Article 2</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <a href="#"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
                                     <span class="post-date">07 Mai 2021</span>
-                                    <a href="single-blog.html">Article 3</a>
+                                    <a href="#">Article 3</a>
                                 </li>
                             </ul>
                         </div>
@@ -1293,7 +1293,7 @@
                 <div class="row copyright">
                     <div class="col-md-12">
                         <ul id="menu-footer-menu" class="footer-nav-menu">
-                            <li><a target="_blank" href="aboutus-1.html">Qui sommes-nous ?</a></li>
+                            <li><a target="_blank" href="#">Qui sommes-nous ?</a></li>
                             <li><a target="_blank" href="produits.html">Produits</a></li>
                             <li><a target="_blank" href="services-auxano.html">Services</a></li>
                         </ul>

@@ -99,7 +99,7 @@
                             <div class="container">
                                 <!-- site-branding -->
                                 <div class="site-branding">
-                                    <a class="home-link" href="index.html" title="Auxano" rel="home">
+                                    <a class="home-link" href="index.php" title="Auxano" rel="home">
                                         <img id="logo-img" class="img-center" src="images/logo.png" alt="logo-img">
                                     </a>
                                 </div><!-- site-branding end -->
@@ -118,12 +118,12 @@
                                     
                                     <nav id="menu" class="menu">
                                         <ul class="dropdown">
-                                            <li class="active"><a href="index.html">Accueil</a></li>
+                                            <li class="active"><a href="index.php">Accueil</a></li>
                                             
                                             <li><a href="#">Activités</a>
                                                 <ul>
-                                                    <li><a href="analytics-solutions.html">Produits</a></li>
-                                                    <li><a href="business-growth.html">Services</a></li>
+                                                    <li><a href="produits.html">Produits</a></li>
+                                                    <li><a href="services-auxano.html">Services</a></li>
                                                 </ul>
                                             </li>
                                             
@@ -338,7 +338,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Gangner du temps </div>
+                            >Gagner du temps </div>
 
                         <!-- LAYER NR. 9 -->
                         <div class="tp-caption tp-resizeme" 
@@ -538,6 +538,7 @@
        <!-- END REVOLUTION SLIDER -->
 
     <!--site-main start-->
+    
     <div class="site-main">
 
         <!--row-top-section-->
@@ -551,102 +552,53 @@
                                 <!-- featured-imagebox-post -->
                                 <div class="featured-imagebox featured-imagebox-services text-center">
                                     <div class="featured-title">
-                                        <h5><a href="corporate-finanace.html">Corporate Finanace</a></h5>
+                                        <h5><a href="#">Activité 1</a></h5>
                                     </div>
                                     <div class="featured-thumbnail">
                                         <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
                                     </div>
                                     <div class="featured-content featured-content-services">
                                         <div class="featured-desc">
-                                            <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
+                                            <p>Description Activité 1</p>
                                         </div>
                                         <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
                                                 <i class="ti ti-angle-right"></i>
                                         </a>
                                     </div>
                                 </div><!-- featured-imagebox-post end -->
+                                
                                 <!-- featured-imagebox-post -->
                                 <div class="featured-imagebox featured-imagebox-services text-center">
                                     <div class="featured-title">
-                                        <h5><a href="single-blog.html">Analytics Solutions</a></h5>
+                                        <h5><a href="#">Activité 2</a></h5>
                                     </div>
                                     <div class="featured-thumbnail">
                                         <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
                                     </div>
                                     <div class="featured-content featured-content-services">
                                         <div class="featured-desc">
-                                            <p>We are in charge of, to increase of a  consumer brand awareness and the revenue.</p>
+                                            <p>Description Activité 2</p>
                                         </div>
                                         <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
                                                 <i class="ti ti-angle-right"></i>
                                         </a>
                                     </div>
                                 </div><!-- featured-imagebox-post end -->
+                                
                                 <!-- featured-imagebox-post -->
                                 <div class="featured-imagebox featured-imagebox-services text-center">
                                     <div class="featured-title">
-                                        <h5><a href="business-growth.html">Business Growth</a></h5>
+                                        <h5><a href="#">Activité 3</a></h5>
                                     </div>
                                     <div class="featured-thumbnail">
                                         <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
                                     </div>
                                     <div class="featured-content featured-content-services">
                                         <div class="featured-desc">
-                                            <p>To implement future-oriented logistics strategies leading companies in all industries.</p>
+                                            <p>Description Activité 3</p>
                                         </div>
                                         <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
                                                 <i class="ti ti-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div><!-- featured-imagebox-post end -->
-                                <!-- featured-imagebox-post -->
-                                <div class="featured-imagebox featured-imagebox-services text-center">
-                                    <div class="featured-title">
-                                        <h5><a href="advance-reports.html">Advance Reports</a></h5>
-                                    </div>
-                                    <div class="featured-thumbnail">
-                                        <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
-                                    </div>
-                                    <div class="featured-content featured-content-services">
-                                        <div class="featured-desc">
-                                            <p>We are in charge of, to increase of a  consumer brand awareness and the revenue.</p>
-                                        </div>
-                                        <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
-                                                <i class="ti ti-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div><!-- featured-imagebox-post end -->
-                                <!-- featured-imagebox-post -->
-                                <div class="featured-imagebox featured-imagebox-services text-center">
-                                    <div class="featured-title">
-                                        <h5><a href="chain-management.html">Chain Management</a></h5>
-                                    </div>
-                                    <div class="featured-thumbnail">
-                                        <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
-                                    </div>
-                                    <div class="featured-content featured-content-services">
-                                        <div class="featured-desc">
-                                            <p>To implement future-oriented logistics strategies leading companies in all industries.</p>
-                                        </div>
-                                        <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
-                                                <i class="ti ti-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div><!-- featured-imagebox-post end -->
-                                <!-- featured-imagebox-post -->
-                                <div class="featured-imagebox featured-imagebox-services text-center">
-                                    <div class="featured-title">
-                                        <h5><a href="advanced-analytics.html">Advanced Analytics</a></h5>
-                                    </div>
-                                    <div class="featured-thumbnail">
-                                        <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
-                                    </div>
-                                    <div class="featured-content featured-content-services">
-                                        <div class="featured-desc">
-                                            <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
-                                        </div>
-                                        <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
-                                            <i class="ti ti-angle-right"></i>
                                         </a>
                                     </div>
                                 </div><!-- featured-imagebox-post end -->
@@ -656,102 +608,12 @@
                 </div><!-- row end -->
                 <div class="row pt-25">
                     <div class="col-md-12 text-center mb-55 res-991-mb-0">
-                        <p>Don’t hesitate, contact us for better help and services.<strong><u><a href="#" class="ttm-textcolor-darkgrey"> Explore all services</a></u></strong></p>
+                        <p>N'hésitez plus, ayez accès à nos <strong><u><a href="#" class="ttm-textcolor-darkgrey"> produits</a></u></strong> et <strong><u><a href="#" class="ttm-textcolor-darkgrey">services</a></u></strong></p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- row-top-section end -->
-        
-        <!-- about-section -->
-        <section class="ttm-row about-section clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-sm-12">
-                        <div class="pr-80 res-991-pr-0">
-                            <!-- section title -->
-                            <div class="section-title pr-60 res-991-pr-0 clearfix">
-                                <div class="title-header">
-                                    <h5>ABOUT CONSULTANCY</h5>
-                                    <h2 class="title">We work with you to address your most critical business priorities</h2>
-                                </div>
-                                <div class="title-desc">To obtain higher performance, Our leaders first identify the critical obstacles to forward progress and then develop a coherent approach to overcoming them. We define your company mission and prioritize company objectives. <u><a href="#" class="ttm-textcolor-skincolor">Read More</a></u></div>
-                            </div><!-- section title end -->
-                            <div class="row no-gutters mt-40 mb-27">
-                                <div class="col-md-6 col-lg-6 col-sm-6">
-                                    <ul class="ttm-list ttm-list-style-icon">
-                                        <li><i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Acquire live chat enables sales </span></li>
-                                        <li><i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Engage - marketing automation</span></li>
-                                        <li><i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Acquire live chat enables sales</span></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-sm-6">
-                                    <ul class="ttm-list ttm-list-style-icon">
-                                        <li><i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Learn from customer feedback</span></li>
-                                        <li><i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Support -customer support </span></li>
-                                        <li><i class="fa fa-arrow-circle-right ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Learn from customer feedback</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="separator">
-                                <div class="sep-line dashed"></div>
-                            </div>
-                            <div class="row no-gutters">
-                                <div class="col-md-6 col-sm-6">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box style1 left-icon right-border">
-                                        <div class="">
-                                            <img src="https://via.placeholder.com/102X84/444444.png" alt="sign">
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h5>Jhon Martin</h5>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>Chairnan and founder</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-icon-box end-->
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <!--featured-icon-box-->
-                                    <div class="featured-icon-box style1 without-icon right-border">
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h5>123-456-7890 </h5>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>Call to ask any question</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-icon-box end-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-sm-12">
-                        <div class="ml_30 res-991-ml-0 res-991-mt-30 position-relative">
-                            <!-- ttm_single_image-wrapper -->
-                            <div class="ttm_single_image-wrapper w100 p-12 with-border">
-                                <img class="img-fluid" src="https://via.placeholder.com/511X630/444444.jpg" title="single-img-one" alt="single-img-one">
-                            </div><!-- ttm_single_image-wrapper end -->
-                            <!--featured-icon-box-->
-                            <div class="featured-icon-box style2 left-icon ttm-bgcolor-skincolor">
-                                <a href="https://youtu.be/7e90gBu4pas" class="ttm_prettyphoto">
-                                    <img src="images/ttm-playicon-30x30.png" alt="play-icon" class="ttm_prettyphoto">
-                                </a>
-                                <div class="featured-content">
-                                    <div class="featured-title">
-                                        <h5>Play Video</h5>
-                                    </div>
-                                </div>
-                            </div><!-- featured-icon-box end-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- about-section end -->
        
         <!-- services-section -->
         <section class="ttm-row ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes bg-img1 services-section clearfix">
@@ -763,8 +625,8 @@
                         <!-- section title -->
                         <div class="section-title text-center with-desc clearfix">
                             <div class="title-header">
-                                <h5>WHAT WE DO</h5>
-                                <h2 class="title">We creating solutions for your organization</h2>
+                                <h5>QU'EST-CE QUE VOUS GAGNEZ ?</h5>
+                                <h2 class="title">De nombreux avantages</h2>
                             </div>
                         </div><!-- section title end -->
                     </div>
@@ -781,14 +643,15 @@
                             </div><!-- featured-icon -->
                             <div class="featured-content"><!-- featured-content -->
                                 <div class="featured-title">
-                                    <h5>Business Finance<br> Strategy</h5>
+                                    <h5>Solution 1</h5>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Devise and implement business strategies that drive success—for an entire business or division, technology, or asset.</p>
+                                    <p>Description de l'avantage</p>
                                 </div>
                             </div><!-- featured-content -->
                         </div><!-- featured-icon-box -->
                     </div>
+                    
                     <div class="col-lg-4 col-md-6">
                         <!-- featured-icon-box -->
                         <div class="featured-icon-box style3 text-center mb-30">
@@ -799,14 +662,15 @@
                             </div><!-- featured-icon -->
                             <div class="featured-content"><!-- featured-content -->
                                 <div class="featured-title">
-                                    <h5>Portfolio &amp; Resource <br> Allocation</h5>
+                                    <h5>Avantage 2</h5>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>By balancing and optimizing the many competing assets and initiatives achieve deep &amp; lasting improvements.</p>
+                                    <p>Description de l'avantage</p>
                                 </div>
                             </div><!-- featured-content -->
                         </div><!-- featured-icon-box -->
                     </div>
+                   
                     <div class="col-lg-4 col-md-6">
                         <!-- featured-icon-box -->
                         <div class="featured-icon-box style3 text-center mb-30">
@@ -817,68 +681,15 @@
                             </div><!-- featured-icon -->
                             <div class="featured-content"><!-- featured-content -->
                                 <div class="featured-title">
-                                    <h5>Organization &amp; <br> Decision Process</h5>
+                                    <h5>Avantage 3</h5>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Organizations are designed to be effective and an efficient. The processes require cross-functional teaming.</p>
+                                    <p>Description de l'avantage</p>
                                 </div>
                             </div><!-- featured-content -->
                         </div><!-- featured-icon-box -->
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!-- featured-icon-box -->
-                        <div class="featured-icon-box style3 text-center mb-30">
-                            <div class="featured-icon"><!-- featured-icon-->
-                                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg"> 
-                                    <i class="flaticon flaticon-talk-1"></i>
-                                </div>
-                            </div><!-- featured-icon -->
-                            <div class="featured-content"><!-- featured-content -->
-                                <div class="featured-title">
-                                    <h5>Decision &amp; Risk <br> Analytic</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Our decision risk analytics empower clients to develop rational decision-making models and development.</p>
-                                </div>
-                            </div><!-- featured-content -->
-                        </div><!-- featured-icon-box -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!-- featured-icon-box -->
-                        <div class="featured-icon-box style3 text-center mb-30">
-                            <div class="featured-icon"><!-- featured-icon-->
-                                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg"> 
-                                    <i class="flaticon flaticon-business-and-finance-1"></i>
-                                </div>
-                            </div><!-- featured-icon -->
-                            <div class="featured-content"><!-- featured-content -->
-                                <div class="featured-title">
-                                    <h5>Banking &amp; <br> Capital Markets</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>The venues where savings and investments are channeled between the suppliers who have capital and those.</p>
-                                </div>
-                            </div><!-- featured-content -->
-                        </div><!-- featured-icon-box -->
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!-- featured-icon-box -->
-                        <div class="featured-icon-box style3 text-center mb-30">
-                            <div class="featured-icon"><!-- featured-icon-->
-                                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg"> 
-                                    <i class="flaticon flaticon-document"></i>
-                                </div>
-                            </div><!-- featured-icon -->
-                            <div class="featured-content"><!-- featured-content -->
-                                <div class="featured-title">
-                                    <h5>Modern &amp; Tribe<br> Workplace</h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Redefine your workplace value equation that encourage staff to work more attentively and gracefully.</p>
-                                </div>
-                            </div><!-- featured-content -->
-                        </div><!-- featured-icon-box -->
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -905,15 +716,15 @@
                                     <h4 class="ttm-fid-inner">
                                         <span   data-appear-animation = "animateDigits"
                                         data-from             = "0"
-                                        data-to               = "300"
-                                        data-interval         = "20"
+                                        data-to               = "1000"
+                                        data-interval         = "50"
                                         data-before           = ""
                                         data-before-style     = "sup"
                                         data-after            = "+"
                                         data-after-style      = "sub"
-                                    >300</span><span class="ml-5">+</span>
+                                    >1000</span><span class="ml-5">+</span>
                                     </h4>
-                                    <h3 class="ttm-fid-title">Successful Customers</h3>
+                                    <h3 class="ttm-fid-title">Clients Satisfaits</h3>
                                 </div>
                             </div><!-- ttm-fid end-->
                         </div>
@@ -926,10 +737,11 @@
                                 <!-- section title -->
                                 <div class="section-title clearfix">
                                     <div class="title-header">
-                                        <h5>WHY CHOOSE US</h5>
-                                        <h2 class="title">We Provide Experts To Create A Great Value For Your Business</h2>
+                                        <h5>Pourquoi nous choisir ?</h5>
+                                        <h2 class="title">Nous faisons la différence</h2>
                                     </div>
                                 </div><!-- section title end -->
+                                
                                 <!-- featured-icon-box -->
                                 <div class="featured-icon-box style4 left-icon icon-align-top">
                                     <div class="featured-icon">
@@ -939,16 +751,17 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5>We modify whole system</h5>
+                                            <h5>point fort 1</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>By dealing with data, select tools that help you automate time-consuming processes.</p>
+                                            <p>Description du point fort</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end -->
                                 <div class="separator">
                                     <div class="sep-line dashed mb-25"></div>
                                 </div>
+                                
                                 <!-- featured-icon-box -->
                                 <div class="featured-icon-box style4 left-icon icon-align-top">
                                     <div class="featured-icon">
@@ -958,16 +771,17 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5>Safeguard for Your Business</h5>
+                                            <h5>Point fort 2</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>To guard, Avoid Revealing Too Much, Apply for a Provisional Patent, Trademark.</p>
+                                            <p>Description du point fort</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end -->
                                 <div class="separator">
                                     <div class="sep-line dashed mb-25"></div>
                                 </div>
+                                
                                 <!-- featured-icon-box -->
                                 <div class="featured-icon-box style4 left-icon icon-align-top">
                                     <div class="featured-icon">
@@ -977,16 +791,17 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5>Beneficial Strategies</h5>
+                                            <h5>Point fort 3</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Strategic initiatives – all ideas welcome rather it’s by our employees or client.</p>
+                                            <p>Description point fort</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end -->
                                 <div class="separator">
                                     <div class="sep-line dashed mb-25"></div>
                                 </div>
+                                
                                 <!-- featured-icon-box -->
                                 <div class="featured-icon-box style4 left-icon icon-align-top">
                                     <div class="featured-icon">
@@ -996,16 +811,17 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5>Build Solid Human Resource</h5>
+                                            <h5>Point fort 4</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Give employees generous boundaries by listening intently, Belief in them.</p>
+                                            <p>Description point fort</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end -->
                                 <div class="separator">
                                     <div class="sep-line dashed mb-25"></div>
                                 </div>
+                                
                                 <!-- featured-icon-box -->
                                 <div class="featured-icon-box style4 left-icon icon-align-top">
                                     <div class="featured-icon">
@@ -1015,10 +831,10 @@
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h5>We Are ISO Certified Company</h5>
+                                            <h5>Point fort avec icone</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>We have achieved ISO 9001:2015 certification.</p>
+                                            <p>Description point fort</p>
                                         </div>
                                     </div>
                                 </div><!-- featured-icon-box end -->
@@ -1039,7 +855,7 @@
                     <div class="col-md-8 col-sm-10">
                         <div class="text-center">
                             <div class="ttm-video-btn">
-                                <a class="ttm-play-btn ttm_prettyphoto" href="https://youtu.be/7e90gBu4pas">
+                                <a class="ttm-play-btn ttm_prettyphoto" href="https://youtu.be/-4jmH4osfq4">
                                     <span class="ttm-video-btn-play"><i class="fa fa-play"></i></span>
                                 </a>
                             </div>
@@ -1047,21 +863,14 @@
                                 <!-- section title -->
                                 <div class="section-title clearfix">
                                     <div class="title-header">
-                                        <h5>WE MAKE A DIFFERENCE</h5>
-                                        <h2 class="title">The Best Solutions For Developing Your Business</h2>
+                                        <h5>Regardez ceci</h5>
+                                        <h2 class="title">Vous serez encore plus séduit.</h2>
                                     </div>
                                 </div><!-- section title end -->
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-center mt-20">
-                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-bgcolor-skincolor mb-20" href="#">view more services</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -1076,8 +885,8 @@
                         <!-- section title -->
                         <div class="section-title text-center with-desc clearfix">
                             <div class="title-header">
-                                <h5>OUR TEAM MEMBER</h5>
-                                <h2 class="title">Discover our team and experts</h2>
+                                <h5>UNE ÉQUIPE DYNAMIQUE</h5>
+                                <h2 class="title">Découvrez nos experts</h2>
                             </div>
                         </div><!-- section title end -->
                     </div>
@@ -1099,11 +908,12 @@
                             </div> 
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Amelia Daniel</a></h5>
+                                    <h5><a href="team-details.html">Moussa TRAORÉ</a></h5>
                                 </div>
-                                <p class="category">Chairman and founder</p>
+                                <p class="category">Co-Fondateur</p>
                             </div>
                         </div><!-- featured-imagebox-team end-->
+                        
                         <!-- featured-imagebox-team -->
                         <div class="featured-imagebox featured-imagebox-team">
                             <div class="featured-thumbnail">
@@ -1117,11 +927,12 @@
                             </div> 
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Alex Mason</a></h5>
+                                    <h5><a href="team-details.html">Ousmane BAMBA</a></h5>
                                 </div>
-                                <p class="category">Visual Media</p>
+                                <p class="category">Co-fondateur</p>
                             </div>
                         </div><!-- featured-imagebox-team end-->
+                        
                         <!-- featured-imagebox-team -->
                         <div class="featured-imagebox featured-imagebox-team">
                             <div class="featured-thumbnail">
@@ -1135,45 +946,9 @@
                             </div> 
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="team-details.html">Michael Harper</a></h5>
+                                    <h5><a href="team-details.html">Dro Kieu DÉLI</a></h5>
                                 </div>
-                                <p class="category">Sales Manager </p>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="https://via.placeholder.com/480X480/444444.jpg" alt="image">
-                                <div class="ttm-social-links-wrapper">
-                                    <ul class="social-icons list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class=" tooltip-top" target="_blank" href="" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> 
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Jhon Martin</a></h5>
-                                </div>
-                                <p class="category">Chairman and founder</p>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid" src="https://via.placeholder.com/480X480/444444.jpg" alt="image">
-                                <div class="ttm-social-links-wrapper">
-                                    <ul class="social-icons list-inline">
-                                        <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li class="social-twitter"><a class=" tooltip-top" target="_blank" href="" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> 
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="team-details.html">Evelyn Jackson</a></h5>
-                                </div>
-                                <p class="category">Visual Media</p>
+                                <p class="category">Développeur</p>
                             </div>
                         </div><!-- featured-imagebox-team end-->
                     </div>
@@ -1209,18 +984,19 @@
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                             </div>
-                                            <blockquote>If you can offer a free tier that provides a lot of value, it will naturally help your product to spread much more rapidly</blockquote>
+                                            <blockquote>Auxano est un service de qualité qui su réponde à mon besoin immédiatement.</blockquote>
                                             <div class="testimonial-caption"><!-- testimonial-caption -->
-                                                <h6>Alena Due</h6>
-                                                <label>Business man</label>
+                                                <h6>Leslie Kouamé</h6>
+                                                <label>Chef d'entreprise de Sarra Make'UP</label>
                                             </div>
                                         </div>
                                     </div><!-- testimonials end -->
+                                    
                                     <!-- testimonials -->
                                     <div class="testimonials style1 text-center"> 
                                         <div class="testimonial-content">
                                             <div class="testimonial-avatar">
-                                                <div class="testimonial-img">
+                                                <div class="testimonial-img"><!-- testimonial-img -->
                                                     <img class="img-center" src="https://via.placeholder.com/150X150/444444.jpg" alt="testimonial-img">
                                                 </div>
                                             </div>
@@ -1231,18 +1007,19 @@
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                             </div>
-                                            <blockquote>If you can offer a free tier that provides a lot of value, it will naturally help your product to spread much more rapidly.</blockquote>
-                                            <div class="testimonial-caption">
-                                                <h6>Alena Due</h6>
-                                                <label>Business man</label>
+                                            <blockquote>Auxano est un service de qualité qui su réponde à mon besoin immédiatement.</blockquote>
+                                            <div class="testimonial-caption"><!-- testimonial-caption -->
+                                                <h6>Leslie Kouamé</h6>
+                                                <label>Chef d'entreprise de Sarra Make'UP</label>
                                             </div>
                                         </div>
                                     </div><!-- testimonials end -->
+                                    
                                     <!-- testimonials -->
-                                    <div class="testimonials style1 text-center">
+                                    <div class="testimonials style1 text-center"> 
                                         <div class="testimonial-content">
                                             <div class="testimonial-avatar">
-                                                <div class="testimonial-img">
+                                                <div class="testimonial-img"><!-- testimonial-img -->
                                                     <img class="img-center" src="https://via.placeholder.com/150X150/444444.jpg" alt="testimonial-img">
                                                 </div>
                                             </div>
@@ -1252,14 +1029,15 @@
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
-                                            </div> 
-                                            <blockquote>If you can offer a free tier that provides a lot of value, it will naturally help your product to spread much more rapidly</blockquote>
-                                            <div class="testimonial-caption">
-                                                <h6>Alena Due</h6>
-                                                <label>Business man</label>
+                                            </div>
+                                            <blockquote>Auxano est un service de qualité qui su réponde à mon besoin immédiatement.</blockquote>
+                                            <div class="testimonial-caption"><!-- testimonial-caption -->
+                                                <h6>Leslie Kouamé</h6>
+                                                <label>Chef d'entreprise de Sarra Make'UP</label>
                                             </div>
                                         </div>
                                     </div><!-- testimonials end -->
+                                
                                 </div><!-- testimonial-slide end-->
                             </div>
                         </div>
@@ -1278,10 +1056,10 @@
                         <!-- section-title -->
                         <div class="section-title style2 clearfix">
                             <div class="title-header">
-                                <h5>Our latest News</h5>
-                                <h2 class="title">Read Our Latest Articles, Tips &amp; News</h2>
+                                <h5>Nos derniers aricles</h5>
+                                <h2 class="title">Lisez nos récentes publications</h2>
                             </div>
-                            <div class="title-desc">Know how to pursue pleasure rationally encounter consequences that are re <br> rationally encounter consequences that are extremely painful.</div>
+                            <div class="title-desc">Nous vous offrons le meilleur contenu blablabla blablabla...</div>
                         </div><!-- section-title end -->
                     </div>
                 </div><!-- row end -->
@@ -1300,19 +1078,14 @@
                         <div class="featured-imagebox featured-imagebox-post box-shadow">
                             <div class="featured-thumbnail">
                                 <img class="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="">
-                                <div class="featured-icon">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs"> 
-                                        <i class="ti ti-pencil"></i>
-                                    </div>
-                                </div>
                             </div>
                             <div class="featured-content featured-content-post">
                                 <div class="post-title featured-title">
-                                    <h5><a href="single-blog.html">Successful Growth In Business 2018</a></h5>
+                                    <h5><a href="single-blog.html">Titre 1</a></h5>
                                 </div>
                                 <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>January 16, 2019</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-comment"></i>2,comments</span>
+                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
+                                    <span class="ttm-meta-line"><i class="fa fa-eye"></i>100 vues</span>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end -->
@@ -1320,19 +1093,14 @@
                         <div class="featured-imagebox featured-imagebox-post box-shadow">
                             <div class="featured-thumbnail">
                                 <img class="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="">
-                                <div class="featured-icon">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs"> 
-                                        <i class="ti ti-pencil"></i>
-                                    </div>
-                                </div>
                             </div>
                             <div class="featured-content featured-content-post">
                                 <div class="post-title featured-title">
-                                    <h5><a href="single-blog.html">Achieving Best Business Awards</a></h5>
+                                    <h5><a href="single-blog.html">Titre 2</a></h5>
                                 </div>
                                 <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>January 19, 2018</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-comment"></i>4,comments</span>
+                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
+                                    <span class="ttm-meta-line"><i class="fa fa-eye"></i>4 vues</span>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end -->
@@ -1340,19 +1108,14 @@
                         <div class="featured-imagebox featured-imagebox-post box-shadow">
                             <div class="featured-thumbnail">
                                 <img class="img-fluid" src="https://via.placeholder.com/654X490/444444.jpg" alt="">
-                                <div class="featured-icon">
-                                    <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs"> 
-                                        <i class="ti ti-pencil"></i>
-                                    </div>
-                                </div>
                             </div>
                             <div class="featured-content featured-content-post">
                                 <div class="post-title featured-title">
-                                    <h5><a href="single-blog.html">Seminar for Best Marketing Strategy</a></h5>
+                                    <h5><a href="single-blog.html">Titre 3</a></h5>
                                 </div>
                                 <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>March 16, 2018</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-comment"></i>3,comments</span>
+                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
+                                    <span class="ttm-meta-line"><i class="fa fa-eye"></i>0 vues</span>
                                 </div>
                             </div>
                         </div><!-- featured-imagebox-post end-->
@@ -1382,80 +1145,30 @@
         </section>
         <!--blog-section end-->
 
-        <!-- client-section -->
-        <div class="ttm-row client-section clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- ttm-client -->
-                        <div class="ttm-client clients-slide owl-carousel owl-theme owl-loaded mt-5" data-item="5" data-nav="false" data-dots="false" data-auto="true">
-                            <div class="client-box ttm-box-view-boxed-logo">
-                                <div class="client">
-                                    <div class="ttm-client-logo-tooltip" data-tooltip="client-01">
-                                        <img class="img-fluid" src="https://via.placeholder.com/170X90/444444.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box ttm-box-view-boxed-logo">
-                                <div class="client">
-                                    <div class="ttm-client-logo-tooltip" data-tooltip="client-02">
-                                        <img class="img-fluid" src="https://via.placeholder.com/170X90/444444.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box ttm-box-view-boxed-logo">
-                                <div class="client">
-                                    <div class="ttm-client-logo-tooltip" data-tooltip="client-03">
-                                        <img class="img-fluid" src="https://via.placeholder.com/170X90/444444.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box ttm-box-view-boxed-logo">
-                                <div class="client">
-                                    <div class="ttm-client-logo-tooltip" data-tooltip="client-01">
-                                        <img class="img-fluid" src="https://via.placeholder.com/170X90/444444.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box ttm-box-view-boxed-logo">
-                                <div class="client">
-                                    <div class="ttm-client-logo-tooltip" data-tooltip="client-02">
-                                        <img class="img-fluid" src="https://via.placeholder.com/170X90/444444.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box ttm-box-view-boxed-logo">
-                                <div class="client">
-                                    <div class="ttm-client-logo-tooltip" data-tooltip="client-03">
-                                        <img class="img-fluid" src="https://via.placeholder.com/170X90/444444.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- ttm-client end -->      
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- client-section end-->
-
     </div><!--site-main end-->
 
     <!--footer start-->
     <footer class="footer widget-footer clearfix">
+        <!-- Logo / Adresse / Contact / Email -->
         <div class="first-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="first-footer-inner">
+
+                            <!-- Logo Auxano -->
                             <div class="footer-logo">
                                 <img id="footer-logo-img" class="img-center" src="images/footer-logo.png" alt="">
                             </div>
+                            
+                            <!-- Adresse  / Contact / Email -->
                             <div class="row no-gutters footer-box">
+                                <!-- Adresse -->
                                 <div class="col-md-4 widget-area">
                                     <div class="featured-box text-center">
                                         <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h5>Notre adresse</h5>
+                                            <div class="featured-title" >
+                                                <h5 style="color: #fff">Notre adresse</h5>
                                             </div>
                                             <div class="featured-desc">
                                                 <p> Adresse, Quartier, Ville, Pays</p>
@@ -1463,11 +1176,13 @@
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <!-- Contact -->
                                 <div class="col-md-4 widget-area">
                                     <div class="featured-box text-center">
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h5>Notre contact</h5>
+                                                <h5 style="color: #fff">Notre contact</h5>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>+212 00 000 000</p>
@@ -1475,11 +1190,13 @@
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <!-- Email -->
                                 <div class="col-md-4 widget-area">
                                     <div class="featured-box text-center">
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h5>Notre email</h5>
+                                                <h5 style="color: #fff">Notre email</h5>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>info@auxano.com</p>
@@ -1493,6 +1210,8 @@
                 </div>
             </div>
         </div>
+        
+        <!-- A propos / Liens utiles / Dernier Article / Représentatios -->
         <div class="second-footer ttm-textcolor-white">
             <div class="container">
                 <div class="row">
@@ -1569,21 +1288,24 @@
                 </div>
             </div>
         </div>
+        
         <div class="bottom-footer-text ttm-textcolor-white">
             <div class="container">
                 <div class="row copyright">
                     <div class="col-md-12">
-                        <div class="">
-                            <span>Copyright © 2019&nbsp;<a href="#">Auxano</a>. All rights reserved.</span>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
                         <ul id="menu-footer-menu" class="footer-nav-menu">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Privacy</a></li>
+                            <li><a target="_blank" href="aboutus-1.html">Qui sommes-nous ?</a></li>
+                            <li><a target="_blank" href="produits.html">Produits</a></li>
+                            <li><a target="_blank" href="services-auxano.html">Services</a></li>
                         </ul>
                     </div>
+                    
+                    <div class="col-md-12">
+                        <div class="">
+                            <span>Copyright © 2021&nbsp;<a href="#">Auxano Group</a>. Tous droits réservés.</span>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>

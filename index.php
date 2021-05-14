@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="HTML5 Template" />
-<meta name="description" content="Fondex – Business &amp; Finance Consulting HTML Template" />
+<meta name="description" content="Auxano – Import - Export" />
 <meta name="author" content="https://www.themetechmount.com/" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Fondex – Business &amp; Finance Consulting HTML Template</title>
+<title>Auxano – Import - Export</title>
 
 <!-- favicon icon -->
 <link rel="shortcut icon" href="images/favicon.png" />
@@ -69,13 +69,15 @@
                 <div class="container">
                     <div class="ttm-topbar-content">
                         <ul class="top-contact ttm-highlight-left text-left">
-                            <li><i class="fa fa-clock-o"></i><strong>Open Hours:</strong> Mon - Sat 9.00 - 18.00</li>
+                            <li><i class="fa fa-clock-o"></i><strong>Heures d'ouvertures :</strong> 7j/7 8:00 - 18.00</li>
                         </ul>
+                        
                         <div class="topbar-right text-right">
                             <ul class="top-contact">
-                                <li><i class="fa fa-envelope-o"></i><a href="mailto:info@example.com.com">info@example.com</a></li>
-                                <li><i class="fa fa-phone"></i>+ 18000-200-1234</li>
+                                <li><i class="fa fa-envelope-o"></i><a href="mailto:info@example.com.com">info@auxano.com</a></li>
+                                <li><i class="fa fa-phone"></i>+212 00 000 000</li>
                             </ul>
+                            
                             <div class="ttm-social-links-wrapper list-inline">
                                 <ul class="social-icons">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a>
@@ -92,6 +94,7 @@
                     </div>
                 </div>
             </div><!-- ttm-topbar-wrapper end -->
+            
             <!-- ttm-header-wrap -->
             <div class="ttm-header-wrap">
                 <!-- ttm-stickable-header-w -->
@@ -101,23 +104,16 @@
                             <div class="container">
                                 <!-- site-branding -->
                                 <div class="site-branding">
-                                    <a class="home-link" href="index.html" title="Fondex" rel="home">
+                                    <a class="home-link" href="index.html" title="Auxano" rel="home">
                                         <img id="logo-img" class="img-center" src="images/logo.png" alt="logo-img">
                                     </a>
                                 </div><!-- site-branding end -->
                                 <!--site-navigation -->
                                 <div id="site-navigation" class="site-navigation">
-                                    <div class="header-btn">
-                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-black" href="#">GET START NOW!</a>
-                                    </div>
+                                    
                                     <div class="ttm-rt-contact">
                                         <!-- header-icons -->
                                         <div class="ttm-header-icons">
-                                            <span class="ttm-header-icon ttm-header-cart-link">
-                                                <a href="#"><i class="ti ti-shopping-cart"></i>
-                                                    <span class="number-cart">0</span>
-                                                </a>
-                                            </span>
                                             <div class="ttm-header-icon ttm-header-search-link">
                                                 <a href="#"><i class="ti ti-search"></i></a>
                                                 <div class="ttm-search-overlay">
@@ -137,6 +133,7 @@
                                             </div>
                                         </div><!-- header-icons end -->
                                     </div>
+                                    
                                     <div class="ttm-menu-toggle">
                                         <input type="checkbox" id="menu-toggle-form" />
                                         <label for="menu-toggle-form" class="ttm-menu-toggle-block">
@@ -145,9 +142,10 @@
                                             <span class="toggle-block toggle-blocks-3"></span>
                                         </label>
                                     </div>
+                                    
                                     <nav id="menu" class="menu">
                                         <ul class="dropdown">
-                                           <li class="active"><a href="index.html">Home</a>
+                                           <li class="active"><a href="index.html">Accueil</a>
                                                 <ul>
                                                     <li class="active"><a href="index.html">Sample Homepage 1</a></li>
                                                     <li><a href="home-2.html">Sample Homepage 2</a></li>
@@ -163,55 +161,28 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">About</a>
+                                            
+                                            <li><a href="#">Activités</a>
+                                                <ul>
+                                                    <li><a href="analytics-solutions.html">Produits</a></li>
+                                                    <li><a href="business-growth.html">Services</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                            <li><a href="blog-left-image.html">Publications</a></li>
+                                            
+                                            <li><a href="#">A Propos</a>
                                                 <ul>
                                                     <li><a href="aboutus-1.html">About Us 1</a></li>
                                                     <li><a href="aboutus-2.html">About Us 2</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">Services</a>
-                                                <ul>
-                                                    <li><a href="analytics-solutions.html">Analytics Solutions</a></li>
-                                                    <li><a href="business-growth.html">Business Growth</a></li>
-                                                    <li><a href="corporate-finanace.html">Corporate Finanace</a></li>
-                                                    <li><a href="advance-reports.html">Advance Reports</a></li>
-                                                    <li><a href="chain-management.html">Chain Management</a></li>
-                                                    <li><a href="advanced-analytics.html">Advanced Analytics</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Pages</a>
-                                                <ul>
-                                                    <li><a href="services.html">Services</a></li>
-                                                    <li><a href="contact-us.html">Contact Us</a></li>
-                                                    <li><a href="our-team.html">Our Team</a></li>
-                                                    <li><a href="#">Shop</a>
-                                                        <ul>
-                                                            <li><a href="shop.html">Default Shop</a></li>
-                                                            <li><a href="product-details.html">Single Product Details</a></li>
-                                                            <li><a href="cart.html">Cart</a></li>
-                                                            <li><a href="checkout.html">Checkout</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="career.html">Carrer</a></li>
-                                                    <li><a href="error.html">Error Page</a></li>
-                                                    <li><a href="element.html">Elements</a></li>
-                                                </ul>
-                                            </li>
                                            
-                                            <li><a href="#">Portfolio</a>
+                                            <li><a href="#">Nous contacter</a>
                                                 <ul>
                                                     <li><a href="portfolio-style-1.html">Project Style 1</a></li>
                                                     <li><a href="portfolio-style-2.html">Project Style 2</a></li>
                                                     <li><a href="portfolio-single.html">Project Single</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Blog</a>
-                                                <ul>
-                                                    <li><a href="blog.html">Blog Classic</a></li>
-                                                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                    <li><a href="blog-left-image.html">Blog Left Image</a></li>
-                                                    <li><a href="single-blog.html">Single Blog View</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -234,6 +205,7 @@
                         <!-- MAIN IMAGE -->
                         <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="home-main-sliderbg01"  width="1920" height="730" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
+                        
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption ttm-textcolor-skincolor tp-resizeme" id="slide-1-layer-1" data-x="['left','left','center','center']" data-hoffset="['50','50','-628','-684']" data-y="['top','top','middle','middle']" data-voffset="['159','159','-116','46']" 
                         data-fontsize="['14','14','12','11']"
@@ -370,7 +342,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-12" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Accueil 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 7 -->
@@ -467,7 +439,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-14" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Accueil 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 11 -->
@@ -1668,7 +1640,7 @@
                 <div class="row copyright">
                     <div class="col-md-12">
                         <div class="">
-                            <span>Copyright © 2019&nbsp;<a href="#">Fondex</a>. All rights reserved.</span>
+                            <span>Copyright © 2019&nbsp;<a href="#">Auxano</a>. All rights reserved.</span>
                         </div>
                     </div>
                     <div class="col-md-12">

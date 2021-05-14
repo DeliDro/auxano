@@ -1,6 +1,6 @@
 /** ==========================================================================================
 
-  Project :   Fondex - Responsive Multi-purpose HTML5 Template
+  Project :   Auxano - Responsive Multi-purpose HTML5 Template
   Version :   Bootstrap 4.1.1
   Author :    Themetechmount
 

@@ -74,20 +74,15 @@
                         
                         <div class="topbar-right text-right">
                             <ul class="top-contact">
-                                <li><i class="fa fa-envelope-o"></i><a href="mailto:info@example.com.com">info@auxano.com</a></li>
+                                <li><i class="fa fa-envelope-o"></i><a href="mailto:info@auxano.com">info@auxano.com</a></li>
                                 <li><i class="fa fa-phone"></i>+212 00 000 000</li>
                             </ul>
                             
                             <div class="ttm-social-links-wrapper list-inline">
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-flickr"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -108,31 +103,9 @@
                                         <img id="logo-img" class="img-center" src="images/logo.png" alt="logo-img">
                                     </a>
                                 </div><!-- site-branding end -->
+                                
                                 <!--site-navigation -->
                                 <div id="site-navigation" class="site-navigation">
-                                    
-                                    <div class="ttm-rt-contact">
-                                        <!-- header-icons -->
-                                        <div class="ttm-header-icons">
-                                            <div class="ttm-header-icon ttm-header-search-link">
-                                                <a href="#"><i class="ti ti-search"></i></a>
-                                                <div class="ttm-search-overlay">
-                                                    <form method="get" class="ttm-site-searchform" action="#">
-                                                        <div class="w-search-form-h">
-                                                            <div class="w-search-form-row">
-                                                                <div class="w-search-input">
-                                                                    <input type="search" class="field searchform-s" name="s" placeholder="Type Word Then Enter...">
-                                                                    <button type="submit">
-                                                                        <i class="ti ti-search"></i>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div><!-- header-icons end -->
-                                    </div>
                                     
                                     <div class="ttm-menu-toggle">
                                         <input type="checkbox" id="menu-toggle-form" />
@@ -145,22 +118,7 @@
                                     
                                     <nav id="menu" class="menu">
                                         <ul class="dropdown">
-                                           <li class="active"><a href="index.html">Accueil</a>
-                                                <ul>
-                                                    <li class="active"><a href="index.html">Sample Homepage 1</a></li>
-                                                    <li><a href="home-2.html">Sample Homepage 2</a></li>
-                                                    <li><a href="home-3.html">Sample Homepage 3</a></li>
-                                                    <li><a href="#">Header Styles</a>
-                                                        <ul>
-                                                            <li><a href="index.html">Header Classic</a></li>
-                                                            <li><a target="_blank" href="header-infostack.html">Header Infostack</a></li>
-                                                            <li><a target="_blank" href="header-elegant.html">Header Elegant</a></li>
-                                                            <li><a target="_blank" href="header-overlay.html">Header Overlay</a></li>
-                                                            <li><a target="_blank" href="header-stackcenter.html">Header Stack Center</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                            <li class="active"><a href="index.html">Accueil</a></li>
                                             
                                             <li><a href="#">Activités</a>
                                                 <ul>
@@ -171,20 +129,9 @@
                                             
                                             <li><a href="blog-left-image.html">Publications</a></li>
                                             
-                                            <li><a href="#">A Propos</a>
-                                                <ul>
-                                                    <li><a href="aboutus-1.html">About Us 1</a></li>
-                                                    <li><a href="aboutus-2.html">About Us 2</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="aboutus-1.html">A Propos</a></li>
                                            
-                                            <li><a href="#">Nous contacter</a>
-                                                <ul>
-                                                    <li><a href="portfolio-style-1.html">Project Style 1</a></li>
-                                                    <li><a href="portfolio-style-2.html">Project Style 2</a></li>
-                                                    <li><a href="portfolio-single.html">Project Single</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="contact-us.html">Nous contacter</a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- site-navigation end-->
@@ -193,6 +140,7 @@
                     </div>
                 </div><!-- ttm-stickable-header-w end-->
             </div><!--ttm-header-wrap end -->
+        
         </header><!--header end-->
 
         
@@ -200,7 +148,8 @@
             <!-- START REVOLUTION SLIDER 5.4.8 auto mode -->
             <div id="rev_slider_4_1" class="rev_slider fullwidthabanner rev_slider_4_1_height" data-version="5.4.8.1">
                 
-                <ul>    <!-- SLIDE  -->
+                <ul>
+                    <!-- SLIDE LEFT  -->
                     <li data-index="rs-11" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="home-main-sliderbg01"  width="1920" height="730" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
@@ -222,7 +171,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[0,0,0,0]"
-                        >HELPING YOU TO</div>
+                        >Nous vous aidons à</div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption tp-resizeme" 
@@ -245,7 +194,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[0,0,0,0]"
-                        >Fastest Way to </div>
+                        >Gagner du temps</div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption tp-resizeme" 
@@ -268,7 +217,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Achieve your <strong class="ttm-textcolor-skincolor">Goal</strong> </div>
+                            >dans vos <strong class="ttm-textcolor-skincolor">Achats</strong> </div>
 
                         <!-- LAYER NR. 4 -->
                         <div class="tp-caption tp-resizeme" 
@@ -292,10 +241,10 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Comprehensive financial advice and financial services that  are<br> tailored to meet your individual needs. </div>
+                            >A travers nos processus  <br> fiables et rapides </div>
 
                         <!-- LAYER NR. 5 -->
-                        <a class="tp-caption skin-flat-button tp-resizeme" href="#" target="_self"
+                        <a class="tp-caption skin-flat-button tp-resizeme" href="#" target="_blank"
                             id="slide-1-layer-5" 
                             data-x="['left','left','center','center']" data-hoffset="['50','50','0','0']" 
                             data-y="['top','top','middle','middle']" data-voffset="['452','452','39','31']" 
@@ -314,10 +263,10 @@
                             data-paddingright="[35,35,30,25]"
                             data-paddingbottom="[16,16,14,12]"
                             data-paddingleft="[35,35,30,25]"
-                            >OUR SERVICES </a>
+                            >NOS PRODUITS </a>
 
                         <!-- LAYER NR. 6 -->
-                        <a class="tp-caption white-flatborder-button tp-resizeme" href="#" target="_self"             
+                        <a class="tp-caption white-flatborder-button tp-resizeme" href="contact-us.html" target="_blank"             
                             id="slide-1-layer-6" 
                             data-x="['left','left','center','center']" data-hoffset="['231','231','0','0']" 
                             data-y="['top','top','middle','middle']" data-voffset="['452','452','101','82']" 
@@ -337,9 +286,10 @@
                             data-paddingright="[35,35,30,25]"
                             data-paddingbottom="[15,15,14,12]"
                             data-paddingleft="[35,35,30,25]"
-                            >QUICK CALL BACK </a>
+                            >CONTACTEZ-NOUS</a>
                     </li>
-                    <!-- SLIDE  -->
+                    
+                    <!-- SLIDE CENTERED -->
                     <li data-index="rs-12" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Accueil 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
@@ -366,7 +316,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >BUSINESS CONSULTING </div>
+                            >Nous vous aidons à</div>
 
                         <!-- LAYER NR. 8 -->
                         <div class="tp-caption tp-resizeme" 
@@ -388,7 +338,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Manage and Grow </div>
+                            >Gangner du temps </div>
 
                         <!-- LAYER NR. 9 -->
                         <div class="tp-caption tp-resizeme" 
@@ -411,7 +361,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Your Business </div>
+                            >dans vos <strong class="ttm-textcolor-skincolor">Achats</strong> </div>
 
                         <!-- LAYER NR. 10 -->
                         <a class="tp-caption tp-resizeme skin-flat-button" href="#" target="_self"             
@@ -434,9 +384,10 @@
                             data-paddingright="[35,35,30,25]"
                             data-paddingbottom="[16,16,14,12]"
                             data-paddingleft="[35,35,30,25]"
-                            >OUR SERVICES </a>
+                            >NOS SERVICES </a>
                     </li>
-                    <!-- SLIDE  -->
+                    
+                    <!-- SLIDE RIGHT -->
                     <li data-index="rs-14" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Accueil 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
@@ -463,7 +414,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >GREAT EXPERIENCE </div>
+                            >Nous vous aidons à </div>
 
                         <!-- LAYER NR. 12 -->
                         <div class="tp-caption tp-resizeme" 
@@ -486,7 +437,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >We Provide </div>
+                            >Gagner du temps</div>
 
                         <!-- LAYER NR. 13 -->
                         <div class="tp-caption tp-resizeme" 
@@ -509,7 +460,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Financial Planning </div>
+                            >dans vos <strong class="ttm-textcolor-skincolor">Achats</strong> </div>
 
                         <!-- LAYER NR. 14 -->
                         <div class="tp-caption tp-resizeme" 
@@ -533,7 +484,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Create a refreshing customer experience that's free of<br> convexity and confusion. </div>
+                            >Grâce à nos processus<br> fiables et sécurisé. </div>
 
                         <!-- LAYER NR. 15 -->
                         <a class="tp-caption tp-resizeme black-flatborder-button" href="#" target="_self"             
@@ -556,7 +507,7 @@
                             data-paddingright="[35,35,30,25]"
                             data-paddingbottom="[15,15,14,12]"
                             data-paddingleft="[35,35,30,25]"
-                            >OUR SERVICES </a>
+                            >CONTACT </a>
 
                         <!-- LAYER NR. 16 -->
                         <a class="tp-caption tp-resizeme skin-flat-button" href="#" target="_self"             
@@ -579,7 +530,7 @@
                             data-paddingright="[35,35,30,25]"
                             data-paddingbottom="[16,16,14,12]"
                             data-paddingleft="[35,35,30,25]"
-                            >CONATCT US </a>
+                            >NOS SERVICES </a>
                     </li>
                 </ul>
             </div>
@@ -1504,10 +1455,10 @@
                                     <div class="featured-box text-center">
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h5>Our Address</h5>
+                                                <h5>Notre adresse</h5>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>Evanto HQ 24 Fifth st., Los Angeles, USA</p>
+                                                <p> Adresse, Quartier, Ville, Pays</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1516,10 +1467,10 @@
                                     <div class="featured-box text-center">
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h5>Talk To Expert</h5>
+                                                <h5>Notre contact</h5>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>+1234 567 8910 or +1234 567 8911</p>
+                                                <p>+212 00 000 000</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1528,30 +1479,14 @@
                                     <div class="featured-box text-center">
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h5>Email Us</h5>
+                                                <h5>Notre email</h5>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>example@yourdomain.com</p>
+                                                <p>info@auxano.com</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row no-gutters">
-                                <div class="col-md-3 col-sm-2"></div>
-                                <div class="col-md-6 col-sm-8">
-                                    <div class="">
-                                        <form id="subscribe-form" class="newsletter-form" method="post" action="#" data-mailchimp="true">
-                                            <div class="mailchimp-inputbox clearfix" id="subscribe-content">
-                                                <i class="fa fa-envelope-o"></i>
-                                                <input type="email" name="email" placeholder="Your Email Address.." required="">
-                                                <input type="submit" value="SUBMIT">
-                                            </div>
-                                            <div id="subscribe-msg"></div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-2"></div>
                             </div>
                         </div>
                     </div>
@@ -1563,71 +1498,70 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div class="widget widget_text  clearfix">
-                            <h3 class="widget-title">About Business</h3>
+                            <h3 class="widget-title">A propos de notre entreprise</h3>
                             <div class="textwidget widget-text">
-                                As a business consultant, we focus on delivering quantifiable results for our customers, based on a well tested methodology and solid experience.
+                                [Texte de présentation]
                                 <br><br>
                                 <div class="social-icons circle social-hover">
                                     <ul class="list-inline">
                                         <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                         <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="social-flickr"><a class=" tooltip-top" target="_blank" href="#" data-tooltip="flickr"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
                                         <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                                 <br>
                                 <div class="mb-20">
-                                    <a class="ttm-btn ttm-btn-size-xs ttm-btn-shape-square ttm-btn-style-fill ttm-btn-bgcolor-skincolor ttm-btn-color-white" href="#">READ MORE</a>
+                                    <a target="_blank" class="ttm-btn ttm-btn-size-xs ttm-btn-shape-square ttm-btn-style-fill ttm-btn-bgcolor-skincolor ttm-btn-color-white" href="contact-us.html">
+                                        Voir plus
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div class="widget widget_nav_menu clearfix">
-                           <h3 class="widget-title">Quick Links</h3>
+                           <h3 class="widget-title">Liens utiles</h3>
                             <ul id="menu-footer-services">
-                                <li><a href="#">Make Appointment</a></li>
-                                <li><a href="#">Customer Services</a></li>
-                                <li><a href="#">Department Services</a></li>
-                                <li><a href="#">About Company</a></li>
-                                <li><a href="#">Our Case Studies</a></li>
-                                <li><a href="#">Free Consultation</a></li>
-                                <li><a href="#">Meet Our Experts</a></li>
+                                <li><a href="#">Produits</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Qui sommes-nous ?</a></li>
+                                <li><a href="#">Nous contacter</a></li>
+                                <li><a href="#">Notre équipe</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div class="widget widget_text clearfix">
-                            <h3 class="widget-title">Latest News</h3>
+                            <h3 class="widget-title">Derniers articles</h3>
                             <ul class="widget-post ttm-recent-post-list">
                                 <li>
                                     <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                    <span class="post-date">May 01, 2019</span>
-                                    <a href="single-blog.html">Successful Growth In Business 2018</a>
+                                    <span class="post-date">07 Mai 2021</span>
+                                    <a href="single-blog.html">Article 1</a>
                                 </li>
+                                
                                 <li>
                                     <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                    <span class="post-date">May 03, 2019</span>
-                                    <a href="single-blog.html">Achieving Best Business Awards</a>
+                                    <span class="post-date">07 Mai 2021</span>
+                                    <a href="single-blog.html">Article 2</a>
                                 </li>
+                                
                                 <li>
                                     <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                    <span class="post-date">May 05, 2019</span>
-                                    <a href="single-blog.html">Seminar for Best Marketing Strategy</a>
+                                    <span class="post-date">07 Mai 2021</span>
+                                    <a href="single-blog.html">Article 3</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div class="widget flicker_widget clearfix">
-                           <h3 class="widget-title">Our Branches</h3>
+                           <h3 class="widget-title">Nos représentations</h3>
                            <div class="textwidget widget-text">
-                                <img src="images/map-footer.png" class="img-fluid" alt="map-footer">
-                                <br>
-                                <br>
                                 <ul class="ttm-our-location-list">
-                                    <li><i class="fa fa-map-marker"></i>Australia: 1234  567 890</li>
-                                    <li><i class="fa fa-map-marker"></i>Ontario: 1234  567 890</li>
+                                    <li><i class="fa fa-map-marker"></i>Maroc : +212 00 000 000</li>
+                                    <li><i class="fa fa-map-marker"></i>France : +33 00 000 000</li>
+                                    <li><i class="fa fa-map-marker"></i>Côte d'Ivoire : +225 00 000 000</li>
                                 </ul>
                             </div>
                         </div>

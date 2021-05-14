@@ -1229,7 +1229,7 @@
                                 </div>
                                 <br>
                                 <div class="mb-20">
-                                    <a target="_blank" class="ttm-btn ttm-btn-size-xs ttm-btn-shape-square ttm-btn-style-fill ttm-btn-bgcolor-skincolor ttm-btn-color-white" href="contact-us.html">
+                                    <a target="_blank" class="ttm-btn ttm-btn-size-xs ttm-btn-shape-square ttm-btn-style-fill ttm-btn-bgcolor-skincolor ttm-btn-color-white" href="#">
                                         Voir plus
                                     </a>
                                 </div>

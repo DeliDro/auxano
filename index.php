@@ -127,11 +127,11 @@
                                                 </ul>
                                             </li>
                                             
-                                            <li><a href="#">Publications</a></li>
+                                            <li><a href="publications.php">Publications</a></li>
                                             
                                             <li><a href="#">A Propos</a></li>
                                            
-                                            <li><a href="#">Nous contacter</a></li>
+                                            <li><a href="nous-contacter.php">Nous contacter</a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- site-navigation end-->

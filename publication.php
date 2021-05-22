@@ -47,7 +47,7 @@
 <body>
 
     <!--page start-->
-    <div class="page">
+    <div class="page sidebar-true">
 
         <!-- preloader start -->
         <div id="preloader">
@@ -115,16 +115,16 @@
                                             
                                             <li><a href="#">Activités</a>
                                                 <ul>
-                                                    <li><a href="produits.html">Produits</a></li>
+                                                    <li><a href="produits.php">Produits</a></li>
                                                     <li><a href="services-auxano.html">Services</a></li>
                                                 </ul>
                                             </li>
                                             
-                                            <li><a href="blog-left-image.html">Publications</a></li>
+                                            <li><a href="publications.php">Publications</a></li>
                                             
                                             <li><a href="aboutus-1.html">A Propos</a></li>
                                            
-                                            <li><a href="contact-us.html">Nous contacter</a></li>
+                                            <li><a href="nous-contacter.php">Nous contacter</a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- site-navigation end-->
@@ -143,14 +143,14 @@
                     <div class="col-md-12"> 
                         <div class="title-box ttm-textcolor-white">
                             <div class="page-title-heading">
-                                <h1 class="title">Contact Us</h1>
+                                <h1 class="title">Titre publication</h1>
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
                                     <a title="Homepage" href="index.php"><i class="ti ti-home"></i>&nbsp;&nbsp;Accueil</a>
                                 </span>
                                 <span class="ttm-bread-sep">&nbsp; | &nbsp;</span>
-                                <span>Contact Us</span>
+                                <span style="font-weight: bold; color: white"> Titre Publication </span>
                             </div>  
                         </div>
                     </div><!-- /.col-md-12 -->  
@@ -160,107 +160,201 @@
 
     <!--site-main start-->
     <div class="site-main">
-
-        <!-- map-section -->
-        <div class="ttm-row map-section clearfix">
+        <!-- sidebar -->
+        <div class="sidebar ttm-sidebar-right ttm-bgcolor-white clearfix">
             <div class="container">
-                <div class="row">
-                        <div class="col-md-12">
-                        <!--map-start-->
-                        <div class="map-wrapper">
-                            <div id="map_canvas"></div>
-                        </div>
-                        <!--map-end-->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- map-section end -->
-        <!-- contact-form-section -->
-        <section class="ttm-row contact-form-section clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="spacing-6 clearfix">
-                            <!-- section title -->
-                            <div class="section-title clearfix">
-                                <div class="title-header">
-                                    <h3 class="title">We’re Happy to Discuss Your Project and Answer any Question</h3>
+                <!-- row -->
+                <div class="row d-block">
+                    <div class="col-lg-9 content-area pull-left">
+                        <!-- ttm-blog-classic-->
+                        <article class="post ttm-blog-classic">
+                           <div class="featured-imagebox featured-imagebox-post">
+                               <!-- Image de l'article -->
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="https://via.placeholder.com/1200X800/444444.jpg" alt="image de l'article">
+                                    <div class="featured-icon">
+                                        <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs">
+                                            <i class="ti ti-pencil"></i>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div><!-- section title end -->
-                            <ul class="ttm_contact_widget_wrapper">
+
+                                <!--  Date / Nombre de vue -->
+                                <div class="featured-content featured-content-post">
+                                    <div class="post-meta">
+                                        <span class="ttm-meta-line"><i class="fa fa-calendar"></i>19 Mai 2021</span>
+                                        <span class="ttm-meta-line"><i class="fa fa-eye"></i>2 vues</span>
+                                    </div>
+                                    <div class="separator">
+                                        <div class="sep-line solid mt-10 mb-20"></div>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction</p>
+                                        <p>Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore</p>
+                                        <p>Introduction encore de encore Introduction encore de encore Introduction encore de encore Introduction encore de encore Introduction encore de encore Introduction encore de encore</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ttm-blog-classic-content single-blog">
+                                <div class="mb-30">
+                                    <img src="https://via.placeholder.com/1200X800/444444.jpg" class="img-fluid" alt="blog-1">
+                                </div>
+                                <h4>Titre de section</h4>
+                                    <p>Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section </p>
+                                    <p>Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section </p>
+                                <blockquote>
+                                    <p class="mb-20">Citation Importante</p>
+                                </blockquote>
+                                <p>Du texte encore</p>
+                                
+                                <div class="separator">
+                                    <div class="sep-line solid mt-30 mb-30"></div>
+                                </div>
+
+                                <div class="clearfix">
+                                    <div class="social-icons circle social-hover pull-left res-767-fnone">
+                                        <div class="ttm-social-share-title d-inline-block">
+                                            <h5> Share This Projects</h5>
+                                        </div>
+                                        <ul class="list-inline mb-0 d-inline-block">
+                                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li class="social-twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="ttm-tag-list pull-right res-767-fnone">
+                                        <span>
+                                            <a href="#">Business</a>
+                                            <a href="#">Marketing</a>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="ttm-blog-classic-box-comment">
+                                    <div id="comments" class="comments-area">
+                                        <h2 class="comments-title">2 Replies to “10 Strategies to Manage Financial Forecast”</h2>
+                                        <ol class="comment-list">
+                                            <li>
+                                                <div class="comment-body">
+                                                    <div class="comment-author vcard">
+                                                        <img src="https://via.placeholder.com/100X100/444444.jpg" class="avatar" alt="comment-img">
+                                                    </div>
+                                                    <div class="comment-box">
+                                                        <div class="comment-meta commentmetadata">
+                                                            <cite class="ttm-comment-owner">Alex</cite>
+                                                            <a href="#">February 14, 2019 at 8:41 am</a>
+                                                        </div>
+                                                        <div class="author-content-wrap">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eius, sunt porro corporis maiores ea, voluptatibus omnis maxime</p>
+                                                        </div>
+                                                        <div class="reply">
+                                                            <a rel="nofollow" class="comment-reply-link" href="#">Reply</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="children comment">
+                                                <div class="comment-body">
+                                                    <div class="comment-author vcard">
+                                                        <img src="https://via.placeholder.com/100X100/444444.jpg" class="avatar" alt="comment-img">
+                                                    </div>
+                                                    <div class="comment-box">
+                                                        <div class="comment-meta">
+                                                            <cite class="ttm-comment-owner">Cherieh</cite>
+                                                            <a href="#">February 14, 2019 at 8:42 am</a>
+                                                        </div>
+                                                        <div class="author-content-wrap">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eius, sunt porro corporis maiores ea, voluptatibus omnis maxime</p>
+                                                        </div>
+                                                        <div class="reply">
+                                                            <a rel="nofollow" class="comment-reply-link" href="#">Reply</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                        <div class="comment-respond">
+                                            <h3 class="comment-reply-title">Leave a Reply</h3>
+                                            <form action="#" method="post" id="commentform" class="comment-form">
+                                                <p class="comment-notes">Your email address will not be published. </p>
+                                                <p class="comment-form-comment">
+                                                    <textarea id="comment" placeholder="Comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+                                                </p>
+                                                <p class="comment-form-author">
+                                                    <input id="author" placeholder="Name (required)" name="author" type="text" value="" size="30" aria-required="true">
+                                                </p>
+                                                <p class="comment-form-email">
+                                                    <input id="email" placeholder="Email (required)" name="email" type="text" value="" size="30" aria-required="true">
+                                                </p>
+                                                <p class="comment-form-url">
+                                                    <input id="url" placeholder="Website" name="url" type="text" value="" size="30">
+                                                </p>
+                                                <p class="comment-form-cookies-consent">
+                                                    <input id="comment-cookies-consent" name="comment-cookies-consent" type="checkbox" value="yes">
+                                                    <label for="comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label>
+                                                </p>
+                                                <p class="form-submit pt-20">
+                                                    <input name="submit" type="submit" id="submit" class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-bgcolor-skincolor" value="Post Comment">
+                                                </p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- ttm-blog-classic end -->
+                    </div>
+
+                    <!-- Tags / Auteur / Dernières publications -->
+                    <div class="col-lg-3 widget-area ttm-bgcolor-grey pull-right">
+
+                        <!-- Tags -->
+                        <aside class="widget tagcloud-widget">
+                            <h3 class="widget-title">Tags</h3>
+                            <div class="tagcloud">
+                                <a class="tag-cloud-link">Tag 1</a>
+                                <a class="tag-cloud-link">Tag 2</a>
+                            </div>
+                        </aside>
+
+                        <!-- Auteur -->
+                        <aside class="widget widget-text">
+                            <div class="ttm-author-widget">
+                                <div class="author-widget_img">
+                                    <img class="author-img" src="https://via.placeholder.com/175X175/444444.png" alt="image auteur">
+                                </div>
+                                <h4 class="author-name">Auteur</h4>
+                                <p class="author-widget_text">Description de l'auteur</p>
+                            </div>
+                        </aside>
+                        
+                        <!-- Dernières publications -->
+                        <aside class="widget post-widget">
+                            <h3 class="widget-title">Dernières publications</h3>
+                            <ul class="widget-post ttm-recent-post-list">
                                 <li>
-                                    <h6>Address</h6>
-                                    <i class="ttm-textcolor-skincolor ti ti-location-pin"></i>
-                                    <span>77408 Satterfield Motorway Suite 469 New<br>Antonetta, BC K3L6P6</span>
+                                    <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <span class="post-date">19 Mai 2021</span>
+                                    <a href="publication.php" class="clearfix">Titre</a>
                                 </li>
                                 <li>
-                                    <h6>Email</h6>
-                                    <i class="ttm-textcolor-skincolor ti ti-comment"></i>
-                                    <span><a href="mailto:info@boldman.com">info@boldman.com</a></span>
+                                    <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <span class="post-date">19 Mai 2021</span>
+                                    <a href="publication.php" class="clearfix">Titre/a>
                                 </li>
                                 <li>
-                                    <h6>Toll Free Number</h6>
-                                    <i class="ttm-textcolor-skincolor ti ti-mobile"></i>
-                                    <span>+1800 200 14523</span>
+                                    <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <span class="post-date">19 Mai 2021</span>
+                                    <a href="publication.php" class="clearfix">Titre</a>
                                 </li>
                             </ul>
-                        </div>
+                        </aside>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="map-col-bg ttm-bgcolor-skincolor spacing-7">
-                            <!-- section title -->
-                            <div class="section-title text-left with-desc clearfix">
-                                <div class="title-header">
-                                    <h2 class="title">Let’s Start <br> The Conversation.</h2>
-                                </div>
-                            </div><!-- section title end -->
-                            <form id="ttm-contactform" class="ttm-contactform wrap-form clearfix" method="post" action="#">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>
-                                            <span class="text-input">
-                                                <input name="your-name" type="text" value="" placeholder="Your Name" required="required">
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>
-                                            <span class="text-input">
-                                                <input name="email" type="email" value="" placeholder="Your Email" required="required">
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>
-                                            <span class="text-input">
-                                                <input name="your-phone" type="text" value="" placeholder="Your Phone" required="required">
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>
-                                            <span class="text-input">
-                                                <input name="venue" type="text" value="" placeholder="Subject" required="required">
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <label>
-                                    <span class="text-input">
-                                        <textarea name="message" cols="40" rows="3" placeholder="Message" required="required"></textarea>
-                                    </span>
-                                </label>
-                                <input name="submit" type="submit" id="submit" class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-bgcolor-darkgrey" value="MAKE A RESERVATION">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                </div><!-- row end -->
+
             </div>
-        </section>
-        <!-- contact-form-section END-->
+        </div>
+        <!-- sidebar end -->
     </div><!--site-main end-->
 
     <!--footer start-->
@@ -346,7 +440,7 @@
                                 </div>
                                 <br>
                                 <div class="mb-20">
-                                    <a target="_blank" class="ttm-btn ttm-btn-size-xs ttm-btn-shape-square ttm-btn-style-fill ttm-btn-bgcolor-skincolor ttm-btn-color-white" href="contact-us.html">
+                                    <a target="_blank" class="ttm-btn ttm-btn-size-xs ttm-btn-shape-square ttm-btn-style-fill ttm-btn-bgcolor-skincolor ttm-btn-color-white" href="nous-contacter.php">
                                         Voir plus
                                     </a>
                                 </div>
@@ -370,21 +464,21 @@
                             <h3 class="widget-title">Derniers articles</h3>
                             <ul class="widget-post ttm-recent-post-list">
                                 <li>
-                                    <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
                                     <span class="post-date">07 Mai 2021</span>
-                                    <a href="single-blog.html">Article 1</a>
+                                    <a href="publication.php">Article 1</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
                                     <span class="post-date">07 Mai 2021</span>
-                                    <a href="single-blog.html">Article 2</a>
+                                    <a href="publication.php">Article 2</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="single-blog.html"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
+                                    <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
                                     <span class="post-date">07 Mai 2021</span>
-                                    <a href="single-blog.html">Article 3</a>
+                                    <a href="publication.php">Article 3</a>
                                 </li>
                             </ul>
                         </div>
@@ -411,7 +505,7 @@
                     <div class="col-md-12">
                         <ul id="menu-footer-menu" class="footer-nav-menu">
                             <li><a target="_blank" href="aboutus-1.html">Qui sommes-nous ?</a></li>
-                            <li><a target="_blank" href="produits.html">Produits</a></li>
+                            <li><a target="_blank" href="produits.php">Produits</a></li>
                             <li><a target="_blank" href="services-auxano.html">Services</a></li>
                         </ul>
                     </div>
@@ -450,24 +544,6 @@
     <script src="js/numinate.min.js?ver=4.9.3"></script>
     <script src="js/main.js"></script>
     <script src="js/chart.js"></script>
-
-    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
-    <script>
-
-        function initialize() {
-            var latlng = new google.maps.LatLng(-34.397, 150.644);
-            var myOptions = {
-                zoom: 8,
-                center: latlng,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(document.getElementById("map_canvas"),
-                    myOptions);
-        }
-        google.maps.event.addDomListener(window, "load", initialize);
-
-    </script>
-
 
     <!-- Javascript end-->
 

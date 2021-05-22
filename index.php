@@ -122,7 +122,7 @@
                                             
                                             <li><a href="#">Activités</a>
                                                 <ul>
-                                                    <li><a href="produits.html">Produits</a></li>
+                                                    <li><a href="produits.php">Produits</a></li>
                                                     <li><a href="services-auxano.html">Services</a></li>
                                                 </ul>
                                             </li>
@@ -1294,7 +1294,7 @@
                     <div class="col-md-12">
                         <ul id="menu-footer-menu" class="footer-nav-menu">
                             <li><a target="_blank" href="#">Qui sommes-nous ?</a></li>
-                            <li><a target="_blank" href="produits.html">Produits</a></li>
+                            <li><a target="_blank" href="produits.php">Produits</a></li>
                             <li><a target="_blank" href="services-auxano.html">Services</a></li>
                         </ul>
                     </div>

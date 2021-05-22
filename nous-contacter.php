@@ -207,14 +207,14 @@
                                         <div class="col-md-6">
                                             <label>
                                                 <span class="text-input">
-                                                    <input name="your-name" type="text" value="" placeholder="Your Name" required="required">
+                                                    <input name="your-name" type="text" value="" placeholder="Votre nom" required="required">
                                                 </span>
                                             </label>
                                         </div>
                                         <div class="col-md-6">
                                             <label>
                                                 <span class="text-input">
-                                                    <input name="email" type="email" value="" placeholder="Your Email" required="required">
+                                                    <input name="email" type="email" value="" placeholder="Votre Email" required="required">
                                                 </span>
                                             </label>
                                         </div>
@@ -223,14 +223,14 @@
                                         <div class="col-md-6">
                                             <label>
                                                 <span class="text-input">
-                                                    <input name="your-phone" type="text" value="" placeholder="Your Phone" required="required">
+                                                    <input name="your-phone" type="text" value="" placeholder="Votre numéro" required="required">
                                                 </span>
                                             </label>
                                         </div>
                                         <div class="col-md-6">
                                             <label>
                                                 <span class="text-input">
-                                                    <input name="venue" type="text" value="" placeholder="Subject" required="required">
+                                                    <input name="venue" type="text" value="" placeholder="Sujet" required="required">
                                                 </span>
                                             </label>
                                         </div>

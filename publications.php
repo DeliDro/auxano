@@ -1,13 +1,14 @@
+<?php session_start() ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="HTML5 Template" />
-<meta name="description" content="Auxano – Import - Export" />
-<meta name="author" content="https://www.themetechmount.com/" />
+
+<meta name="description" content="Auxano Group" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Auxano – Import - Export</title>
+<title>Auxano Group</title>
 
 <!-- favicon icon -->
 <link rel="shortcut icon" href="images/favicon.png" />
@@ -116,7 +117,7 @@
                                             <li><a href="#">Activités</a>
                                                 <ul>
                                                     <li><a href="produits.php">Produits</a></li>
-                                                    <li><a href="services-auxano.html">Services</a></li>
+                                                    <li><a href="services-auxano.php">Services</a></li>
                                                 </ul>
                                             </li>
                                             
@@ -376,7 +377,7 @@
                             <ul id="menu-footer-menu" class="footer-nav-menu">
                                 <li><a target="_blank" href="">Qui sommes-nous ?</a></li>
                                 <li><a target="_blank" href="produits.php">Produits</a></li>
-                                <li><a target="_blank" href="services-auxano.html">Services</a></li>
+                                <li><a target="_blank" href="services-auxano.php">Services</a></li>
                             </ul>
                         </div>
                         

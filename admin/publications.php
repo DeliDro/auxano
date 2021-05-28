@@ -10,7 +10,7 @@
     
         <div class="w-full h-screen overflow-x-hidden border-t flex flex-col">
             <main class="w-full flex-grow p-6">
-                <h1 class="w-full text-3xl text-black pb-6">Publication</h1>
+                <h1 class="w-full text-3xl text-black pb-6">Publications</h1>
                 
                 <?php include("table-template.php") ?>
                 
@@ -21,9 +21,13 @@
                         </p>
                         <div class="leading-loose">
                             <form class="p-10 bg-white rounded shadow-xl">
-                            <div class="">
+                                <div class="">
                                     <label class="block text-sm text-gray-600" for="name">Titre</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="name" name="name" type="text" required="" placeholder="Titre" aria-label="Name">
+                                </div>
+                                <div class="">
+                                    <label class="block text-sm text-gray-600" for="name">Tags</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="name" name="name" type="text" required="" placeholder="Tags" aria-label="Name">
                                 </div>
                                 <div class="">
                                     <label class="block text-sm text-gray-600" for="name">Image</label>
@@ -34,7 +38,7 @@
                                     <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="message" name="message" rows="6" required="" placeholder="Saisir le contenu"></textarea>
                                 </div>
                                 <div class="mt-6">
-                                    <button class="px-4 py-1 text-white font-light tracking-wider bg-gray-900 rounded" type="submit">Submit</button>
+                                    <button class="px-4 py-1 text-white font-light tracking-wider bg-gray-900 rounded" type="submit">Enregistrer</button>
                                 </div>
                             </form>
                         </div>

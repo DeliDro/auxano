@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<?php include("head.php") ?>
+<?php include("components/head.php") ?>
 
 <body>
 
     <!--page start-->
     <div class="page sidebar-true">
 
-        <?php include("header.php") ?>
+        <?php include("components/header.php") ?>
 
         <!-- page-title -->
         <div class="ttm-page-title-row">
@@ -54,7 +54,7 @@
             <!-- sidebar end -->
         </div><!--site-main end-->
 
-        <?php include("footer.php") ?>
+        <?php include("components/footer.php") ?>
 
     </div><!-- page end -->
 

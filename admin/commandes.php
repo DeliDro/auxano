@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-<?php include("head.php") ?>
+<?php include("components/head.php") ?>
 <body class="bg-gray-100 font-family-karla flex">
 
     <!-- Navigation gauche -->
-    <?php include("aside.php") ?>
+    <?php include("components/aside.php") ?>
 
     <div class="relative w-full flex flex-col h-screen overflow-y-hidden">
         <!--  -->

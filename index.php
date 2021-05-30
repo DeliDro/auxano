@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<?php include("head.php") ?>
+<?php include("components/head.php") ?>
 
 <body>
 
     <!--page start-->
     <div class="page">
 
-        <?php include("header.php") ?>
+        <?php include("components/header.php") ?>
 
         <!-- START REVOLUTION SLIDER 5.4.8 auto mode -->
         <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery">
@@ -1014,7 +1014,7 @@
 
         </div><!--site-main end-->
 
-        <?php include("footer.php") ?>
+        <?php include("components/footer.php") ?>
 
     </div><!-- page end -->
 

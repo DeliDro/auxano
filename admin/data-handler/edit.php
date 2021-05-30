@@ -37,6 +37,11 @@ if (isset($_GET["id"]) && isset($_GET["on"])) {
         
         case 'commandes':
             # code...
+            $post["id"] = $id;
+            $post["client"] = isset($_POST["edit-client"]) ? $_POST["edit-client"] : "";
+            $post["contact"] = isset($_POST["edit-contact"]) ? $_POST["edit-contact"] : "";
+            $post["commandes"] = isset($_POST["edit-commandes"]) ? $_POST["edit-commandes"] : "";
+            $post["facture"] = isset($_POST["edit-facture"]) ? $_POST["edit-facture"] : "";
             break;
         
         default:

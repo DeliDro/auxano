@@ -19,10 +19,12 @@
                     const data = JSON.parse(<?php echo json_encode(file_get_contents("data-handler/data/produits.json"), JSON_HEX_TAG);?>);
 
                     setTableTitle("Liste des produits");
-                    
-                    setTHead(["nom", "image", "prix", "reduction", "description"]);
 
-                    setTBody(data.produits, "produits", ["nom", "image", "prix", "reduction", "description"]);
+                    console.log(data.produits);
+                    
+                    setTHead(["nom", "categorie", "image", "prix", "reduction", "description"]);
+
+                    setTBody(data.produits, "produits", ["nom", "categorie", "image", "prix", "reduction", "description"]);
 
                     function showForm(formName) {
                         const doc = document.getElementById(formName);
@@ -33,7 +35,7 @@
                         document.getElementById("edit-form").style.display = "block";
 
                         document.getElementById("edit-form-real").action = `data-handler/edit.php?on=produits&id=${id}`;
-                        const fields = ["nom", "prix", "reduction", "description"];
+                        const fields = ["nom", "categorie", "prix", "reduction", "description"];
                         
                         const selected = data.produits.find(i => i.id === id);
 
@@ -67,27 +69,36 @@
                                 action="data-handler/add.php?on=produits"
                                 class="p-10 bg-white rounded shadow-xl"
                             >
-                                <input style="display: none" id="date" name="date">
                                 <div>
                                     <label class="block text-sm text-gray-600" for="nom">Nom</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="nom" name="nom" type="text" required="" placeholder="Nom" aria-label="Nom">
                                 </div>
+                                
                                 <div class="mt-6">
                                     <label class="block text-sm text-gray-600" for="image">Image</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="image" name="image" type="file" required="" placeholder="Lien image" aria-label="Image">
                                 </div>
+                                
+                                <div>
+                                    <label class="block text-sm text-gray-600" for="categorie">Catégorie</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="categorie" name="categorie" type="text" required="" placeholder="Catégorie" aria-label="Categorie">
+                                </div>
+                                
                                 <div class="mt-6">
                                     <label class="block text-sm text-gray-600" for="prix">Prix</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="prix" name="prix" type="number" required="" placeholder="Prix" aria-label="Prix">
                                 </div>
+                                
                                 <div class="mt-6">
                                     <label class="block text-sm text-gray-600" for="reduction">Réduction</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="reduction" name="reduction" type="number" required="" placeholder="Réduction" aria-label="Réduction">
                                 </div>
+                                
                                 <div class="mt-6">
                                     <label class=" block text-sm text-gray-600" for="description">Description</label>
                                     <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="description" name="description" rows="6" required="" placeholder="Saisir le description"></textarea>
                                 </div>
+                                
                                 <div class="mt-6">
                                     <button
                                         class="px-4 py-1 text-white font-light tracking-wider bg-gray-900 rounded"

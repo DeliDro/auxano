@@ -65,7 +65,9 @@ function setTBody(lines, schema, heads) {
                         Supprimer
                     </a>
                 <div>
-            </td></tr>`);
+            </td></tr>`
+        );
+        
         body.push(raw.join(""));
     }
 
@@ -93,6 +95,29 @@ function formatRaw(key_, value, schema){
                 output += `<div class="text-sm text-gray-900">${key_ === "contenu" ? value.slice(0, 50) + "..." : value }</div>`
             }
             
+            break;
+
+        case "produits":
+            if (key_ === "categorie") {
+                value = value.split(",");
+                
+                output += value
+                    .map(tag => 
+                        `<div class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-500 text-white mr-2">
+                            ${tag}
+                        </div>`
+                    )
+                    .join("");
+            }
+
+            else {
+                output += `<div class="text-sm text-gray-900">${key_ === "contenu" ? value.slice(0, 50) + "..." : value }</div>`
+            }
+            
+            break;
+        
+        case "commandes":
+            output += `<div class="text-sm text-gray-900">${key_ === "contenu" ? value.slice(0, 50) + "..." : value }</div>`;
             break;
     
         default:

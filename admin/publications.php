@@ -7,22 +7,22 @@
     <script defer>activePage("aside-publications")</script>
 
     <div class="relative w-full flex flex-col h-screen overflow-y-hidden">
-    
+
         <div class="w-full h-screen overflow-x-hidden border-t flex flex-col">
             <main class="w-full flex-grow p-6">
                 <h1 class="w-full text-3xl text-black pb-6">Publications</h1>
-                
+
                 <?php include("components/table-template.php") ?>
-                
+
                 <script>
 
                     const data = JSON.parse(<?php echo json_encode(file_get_contents("data-handler/data/publications.json"), JSON_HEX_TAG);?>);
 
                     setTableTitle("Liste des publications");
-                    
-                    setTHead(["Titre", "image", "tags", "date", "contenu"]);
 
-                    setTBody(data.publications, "publications", ["titre", "image", "tags", "date", "contenu"]);
+                    setTHead(["titre", "image", "tags", "contenu"]);
+
+                    setTBody(data.publications, "publications", ["titre", "image", "tags", "contenu"]);
 
                     function showForm(formName) {
                         const doc = document.getElementById(formName);
@@ -72,18 +72,22 @@
                                     <label class="block text-sm text-gray-600" for="titre">Titre</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="titre" name="titre" type="text" required="" placeholder="Titre" aria-label="Titre">
                                 </div>
+                                
                                 <div class="mt-6">
                                     <label class="block text-sm text-gray-600" for="tags">Tags</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="tags" name="tags" type="text" required="" placeholder="Tags" aria-label="Tags">
                                 </div>
+                                
                                 <div class="mt-6">
                                     <label class="block text-sm text-gray-600" for="image">Image</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="image" name="image" type="file" required="" placeholder="Lien image" aria-label="Image">
                                 </div>
+                                
                                 <div class="mt-6">
                                     <label class=" block text-sm text-gray-600" for="contenu">Contenu</label>
                                     <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="contenu" name="contenu" rows="6" required="" placeholder="Saisir le contenu"></textarea>
                                 </div>
+                                
                                 <div class="mt-6">
                                     <button
                                         class="px-4 py-1 text-white font-light tracking-wider bg-gray-900 rounded"

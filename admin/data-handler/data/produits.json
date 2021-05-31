@@ -8,7 +8,16 @@
             "reduction": "646",
             "description": "ldskfmlds",
             "id": 5
+        },
+        {
+            "nom": "produit 2",
+            "image": "WhatsApp Image 2021-05-21 at 18.10.16.jpeg",
+            "categorie": "test",
+            "prix": "2000",
+            "reduction": "23",
+            "description": "DEDe",
+            "id": 6
         }
     ],
-    "maxId": 5
+    "maxId": 6
 }

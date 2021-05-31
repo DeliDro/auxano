@@ -11,12 +11,12 @@
 
         <?php include("components/header.php") ?>
 
-        <!-- START REVOLUTION SLIDER 5.4.8 auto mode -->
+        <!-- SLIDERS -->
         <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery">
             <div id="rev_slider_4_1" class="rev_slider fullwidthabanner rev_slider_4_1_height" data-version="5.4.8.1">
                 
                 <ul>
-                    <!-- SLIDE LEFT  -->
+                    <!-- ECONOMISER  -->
                     <li data-index="rs-11" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="home-main-sliderbg01"  width="1920" height="730" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
@@ -61,7 +61,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[0,0,0,0]"
                         data-paddingleft="[0,0,0,0]"
-                        >Gagner du temps</div>
+                        >Economiser sur les <strong class="ttm-textcolor-skincolor">Coûts</strong>, </div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption tp-resizeme" 
@@ -84,7 +84,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >dans vos <strong class="ttm-textcolor-skincolor">Achats</strong> </div>
+                            >le <strong class="ttm-textcolor-skincolor">Temps</strong> et l’<strong class="ttm-textcolor-skincolor">Énergie</strong> </div>
 
                         <!-- LAYER NR. 4 -->
                         <div class="tp-caption tp-resizeme" 
@@ -111,7 +111,7 @@
                             >A travers nos processus  <br> fiables et rapides </div>
 
                         <!-- LAYER NR. 5 -->
-                        <a class="tp-caption skin-flat-button tp-resizeme" href="#" target="_blank"
+                        <a class="tp-caption skin-flat-button tp-resizeme" href="publications.php"
                             id="slide-1-layer-5" 
                             data-x="['left','left','center','center']" data-hoffset="['50','50','0','0']" 
                             data-y="['top','top','middle','middle']" data-voffset="['452','452','39','31']" 
@@ -133,7 +133,7 @@
                             >NOS PRODUITS </a>
 
                         <!-- LAYER NR. 6 -->
-                        <a class="tp-caption white-flatborder-button tp-resizeme" href="#" target="_blank"             
+                        <a class="tp-caption white-flatborder-button tp-resizeme" href="nous-contacter"            
                             id="slide-1-layer-6" 
                             data-x="['left','left','center','center']" data-hoffset="['231','231','0','0']" 
                             data-y="['top','top','middle','middle']" data-voffset="['452','452','101','82']" 
@@ -153,37 +153,16 @@
                             data-paddingright="[35,35,30,25]"
                             data-paddingbottom="[15,15,14,12]"
                             data-paddingleft="[35,35,30,25]"
-                            >CONTACTEZ-NOUS</a>
+                        >
+                            CONTACTEZ-NOUS
+                        </a>
                     </li>
                     
-                    <!-- SLIDE CENTERED -->
+                    <!-- BESOIN D'AIDE -->
                     <li data-index="rs-12" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Accueil 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
-
-                        <!-- LAYER NR. 7 -->
-                        <div class="tp-caption tp-resizeme ttm-textcolor-skincolor" 
-                            id="slide-2-layer-1" 
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','-628','-684']" 
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-149','-149','-116','46']" 
-                            
-                            data-fontsize="['14','14','12','11']"
-                            data-lineheight="['14','14','14','14']"
-                            data-fontweight="['600','600','700','700']"
-                            data-width="none"
-                            data-height="none"
-                            data-whitespace="nowrap"
-                            data-visibility="['on','on','off','off']"
-                            data-type="text" 
-                            data-responsive_offset="on" 
-                            data-frames='[{"delay":140,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']"
-                            data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            >Nous vous aidons à</div>
 
                         <!-- LAYER NR. 8 -->
                         <div class="tp-caption tp-resizeme" 
@@ -205,7 +184,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Gagner du temps </div>
+                            >Besoin d’aide pour</div>
 
                         <!-- LAYER NR. 9 -->
                         <div class="tp-caption tp-resizeme" 
@@ -228,10 +207,10 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >dans vos <strong class="ttm-textcolor-skincolor">Achats</strong> </div>
+                            ><strong class="ttm-textcolor-skincolor">Importer</strong> ou <strong class="ttm-textcolor-skincolor">Exporter</strong> ? </div>
 
                         <!-- LAYER NR. 10 -->
-                        <a class="tp-caption tp-resizeme skin-flat-button" href="#" target="_self"             
+                        <a class="tp-caption tp-resizeme skin-flat-button" href="services.php" target="_self"             
                             id="slide-2-layer-4" 
                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                             data-y="['middle','middle','middle','middle']" data-voffset="['77','77','69','58']" 
@@ -254,34 +233,11 @@
                             >NOS SERVICES </a>
                     </li>
                     
-                    <!-- SLIDE RIGHT -->
+                    <!-- CALL CENTER -->
                     <li data-index="rs-14" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920X730/666666.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
                         <img src="https://via.placeholder.com/1920X730/666666.jpg"  alt="" title="Accueil 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
-
-                        <!-- LAYER NR. 11 -->
-                        <div class="tp-caption tp-resizeme ttm-textcolor-skincolor" 
-                            id="slide-3-layer-1" 
-                            data-x="['center','center','center','center']" data-hoffset="['64','-16','-628','-684']" 
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-194','-174','-116','46']" 
-                            
-                            data-fontsize="['15','15','12','11']"
-                            data-lineheight="['15','15','14','14']"
-                            data-fontweight="['600','600','700','700']"
-                            data-width="none"
-                            data-height="none"
-                            data-whitespace="nowrap"
-                            data-visibility="['on','on','off','off']"
-                            data-type="text" 
-                            data-responsive_offset="on" 
-                            data-frames='[{"delay":210,"speed":500,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']"
-                            data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            >Nous vous aidons à </div>
 
                         <!-- LAYER NR. 12 -->
                         <div class="tp-caption tp-resizeme" 
@@ -304,7 +260,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >Gagner du temps</div>
+                            >Un Call Center <strong class="ttm-textcolor-skincolor">Expérimenté</strong></div>
 
                         <!-- LAYER NR. 13 -->
                         <div class="tp-caption tp-resizeme" 
@@ -327,34 +283,12 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            >dans vos <strong class="ttm-textcolor-skincolor">Achats</strong> </div>
-
-                        <!-- LAYER NR. 14 -->
-                        <div class="tp-caption tp-resizeme" 
-                            id="slide-3-layer-4" 
-                            data-x="['center','center','center','center']" data-hoffset="['227','147','-702','-702']" 
-                            data-y="['middle','middle','middle','middle']" data-voffset="['6','6','247','247']" 
-                            
-                            data-fontsize="['17','17','14','14']"
-                            data-lineheight="['26','26','24','24']"
-                            data-fontweight="['400','400','400','400']"
-                            data-color="['rgb(46, 50, 54)','rgb(46,50,54)','rgb(222,222,222)','rgb(222,222,222)']"
-                            data-width="none"
-                            data-height="none"
-                            data-whitespace="nowrap"
-                            data-visibility="['on','on','off','off']"
-                            data-type="text" 
-                            data-responsive_offset="on" 
-                            data-frames='[{"delay":890,"speed":500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power0.easeIn"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','center','center']"
-                            data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"
-                            >Grâce à nos processus<br> fiables et sécurisé. </div>
+                        >
+                            à votre service
+                        </div>
 
                         <!-- LAYER NR. 15 -->
-                        <a class="tp-caption tp-resizeme black-flatborder-button" href="#" target="_self"             
+                        <a class="tp-caption tp-resizeme black-flatborder-button" href="nous-contacter.php"             
                             id="slide-3-layer-5" 
                             data-x="['center','center','center','center']" data-hoffset="['83','3','0','0']" 
                             data-y="['middle','middle','middle','middle']" data-voffset="['96','96','46','34']" 
@@ -377,7 +311,7 @@
                             >CONTACT </a>
 
                         <!-- LAYER NR. 16 -->
-                        <a class="tp-caption tp-resizeme skin-flat-button" href="#" target="_self"             
+                        <a class="tp-caption tp-resizeme skin-flat-button" href="services.php"             
                             id="slide-3-layer-6" 
                             data-x="['center','center','center','center']" data-hoffset="['266','186','0','0']" 
                             data-y="['middle','middle','middle','middle']" data-voffset="['96','96','103','87']" 
@@ -402,13 +336,11 @@
                 </ul>
             </div>
         </div>
-       <!-- END REVOLUTION SLIDER -->
 
         <!--site-main start-->
-        
         <div class="site-main">
 
-            <!--row-top-section-->
+            <!-- ACTIVITES -->
             <section class="ttm-row row-top-section first-section ttm-bgcolor-grey clearfix">
                 <div class="container">
                     <div class="row">
@@ -419,17 +351,17 @@
                                     <!-- featured-imagebox-post -->
                                     <div class="featured-imagebox featured-imagebox-services text-center">
                                         <div class="featured-title">
-                                            <h5><a href="#">Activité 1</a></h5>
+                                            <h5>Import - Export</h5>
                                         </div>
                                         <div class="featured-thumbnail">
                                             <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
                                         </div>
                                         <div class="featured-content featured-content-services">
                                             <div class="featured-desc">
-                                                <p>Description Activité 1</p>
+                                                <p>Nous vous permettons d’accéder à un large catalogue de produits phares partout où vous vous trouvez à travers notre service d’import-export. En effet notre but est de faire la promotion des produits clés de chaque pays auprès des autres pays du monde. Ainsi, nous sommes également disposés à collaborer pour la valorisation de vos différents produits et fournir les produits dont vous ave besoin indépendamment de votre localisation.</p>
                                             </div>
-                                            <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
-                                                    <i class="ti ti-angle-right"></i>
+                                            <a href="services.php" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
+                                                <i class="ti ti-angle-right"></i>
                                             </a>
                                         </div>
                                     </div><!-- featured-imagebox-post end -->
@@ -437,17 +369,17 @@
                                     <!-- featured-imagebox-post -->
                                     <div class="featured-imagebox featured-imagebox-services text-center">
                                         <div class="featured-title">
-                                            <h5><a href="#">Activité 2</a></h5>
+                                            <h5>Transport</h5>
                                         </div>
                                         <div class="featured-thumbnail">
-                                            <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
+                                            <img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt="">
                                         </div>
                                         <div class="featured-content featured-content-services">
                                             <div class="featured-desc">
-                                                <p>Description Activité 2</p>
+                                                <p>Transporter vos colis et conteneurs vers votre destination, est notre métier. Ainsi, nous mettons à votre disposition un service fiable qui fait le transport et/ou le dédouanement et/ou le stockage en fonction de votre préférence.</p>
                                             </div>
-                                            <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
-                                                    <i class="ti ti-angle-right"></i>
+                                            <a class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
+                                                <i class="ti ti-angle-right"></i>
                                             </a>
                                         </div>
                                     </div><!-- featured-imagebox-post end -->
@@ -455,14 +387,14 @@
                                     <!-- featured-imagebox-post -->
                                     <div class="featured-imagebox featured-imagebox-services text-center">
                                         <div class="featured-title">
-                                            <h5><a href="#">Activité 3</a></h5>
+                                            <h5><a href="#">Centre d'appel</a></h5>
                                         </div>
                                         <div class="featured-thumbnail">
-                                            <a href=""><img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt=""></a>
+                                            <img class="img-fluid" src="https://via.placeholder.com/740x362/444444.jpg" alt="">
                                         </div>
                                         <div class="featured-content featured-content-services">
                                             <div class="featured-desc">
-                                                <p>Description Activité 3</p>
+                                                <p>Nous sommes un centre d’appel avec des agents qualifiés et expérimentés qui sont capables de s’adapter à tout type de service afférent.</p>
                                             </div>
                                             <a href="#" class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-xs ttm-icon_element-style-round">
                                                     <i class="ti ti-angle-right"></i>
@@ -475,14 +407,13 @@
                     </div><!-- row end -->
                     <div class="row pt-25">
                         <div class="col-md-12 text-center mb-55 res-991-mb-0">
-                            <p>N'hésitez plus, ayez accès à nos <strong><u><a href="#" class="ttm-textcolor-darkgrey"> produits</a></u></strong> et <strong><u><a href="#" class="ttm-textcolor-darkgrey">services</a></u></strong></p>
+                            <p>N'hésitez plus, ayez accès à nos <strong><u><a href="produits.php" class="ttm-textcolor-darkgrey"> produits</a></u></strong> et <strong><u><a href="services.php" class="ttm-textcolor-darkgrey">services</a></u></strong></p>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- row-top-section end -->
         
-            <!-- services-section -->
+            <!-- QU'EST-CE QUE VOUS GAGNEZ ? -->
             <section class="ttm-row ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes bg-img1 services-section clearfix">
                 <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
                 <div class="container">
@@ -510,10 +441,10 @@
                                 </div><!-- featured-icon -->
                                 <div class="featured-content"><!-- featured-content -->
                                     <div class="featured-title">
-                                        <h5>Solution 1</h5>
+                                        <h5>Des experts et spécialistes à vos services</h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Description de l'avantage</p>
+                                        <p>Nous sommes en effet un groupe constitué de plusieurs professionnels qui ont une grande maitrise de leur domaine d’expertise</p>
                                     </div>
                                 </div><!-- featured-content -->
                             </div><!-- featured-icon-box -->
@@ -529,10 +460,10 @@
                                 </div><!-- featured-icon -->
                                 <div class="featured-content"><!-- featured-content -->
                                     <div class="featured-title">
-                                        <h5>Avantage 2</h5>
+                                        <h5>Des produits de qualité mise à votre disposition près de chez vous</h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Description de l'avantage</p>
+                                        <p>Notre service import-export se distingue par sa vocation à vous fournir des produits de qualité</p>
                                     </div>
                                 </div><!-- featured-content -->
                             </div><!-- featured-icon-box -->
@@ -548,10 +479,10 @@
                                 </div><!-- featured-icon -->
                                 <div class="featured-content"><!-- featured-content -->
                                     <div class="featured-title">
-                                        <h5>Avantage 3</h5>
+                                        <h5>Un système de transport rapide fiable et sécurisé</h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Description de l'avantage</p>
+                                        <p>Nous nous engageons à vous garantir un service impeccable dans de bref délai à des coûts hors de concurrence</p>
                                     </div>
                                 </div><!-- featured-content -->
                             </div><!-- featured-icon-box -->
@@ -562,7 +493,7 @@
             </section>
             <!-- services-section end -->
             
-            <!-- broken-section -->
+            <!--  points forts  -->
             <section class="ttm-row broken-section ttm-bgcolor-grey clearfix">
                 <div class="container">
                     <div class="row no-gutters">
@@ -711,9 +642,8 @@
                     </div>
                 </div>
             </section>
-            <!-- broken-section -->
             
-            <!-- row-title-section -->
+            <!-- VIDEO -->
             <section class="ttm-row ttm-bgcolor-darkgrey ttm-bg ttm-bgimage-yes bg-img2 row-title-section clearfix">
                 <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
                 <div class="container">
@@ -741,7 +671,6 @@
                     </div>
                 </div>
             </section>
-            <!-- row-title-section end -->
         
             <!-- team-section -->
             <section class="ttm-row ttm-bg ttm-bgimage-yes bg-img3 team-section clearfix">
@@ -762,52 +691,50 @@
                     <!-- row -->
                     <div class="row">
                         <div class="wrap-team team-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="true">
-                            <!-- featured-imagebox-team -->
+                            <!-- MOUSSA -->
                             <div class="featured-imagebox featured-imagebox-team">
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="https://via.placeholder.com/480X480/444444.jpg" alt="image">
                                     <div class="ttm-social-links-wrapper">
                                         <ul class="social-icons list-inline">
-                                            <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li class="social-twitter"><a class=" tooltip-top" target="_blank" href="" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
                                 </div> 
                                 <div class="featured-content featured-content-team">
                                     <div class="featured-title">
-                                        <h5><a href="#">Moussa TRAORÉ</a></h5>
+                                        <h5><a href="https://linkedin.com/in/moussa-traore-b8962b171">Moussa TRAORÉ</a></h5>
                                     </div>
-                                    <p class="category">Co-Fondateur</p>
+                                    <p class="category">Associé-Gérant</p>
                                 </div>
-                            </div><!-- featured-imagebox-team end-->
+                            </div>
                             
-                            <!-- featured-imagebox-team -->
+                            <!-- BAMBA -->
                             <div class="featured-imagebox featured-imagebox-team">
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="https://via.placeholder.com/480X480/444444.jpg" alt="image">
                                     <div class="ttm-social-links-wrapper">
                                         <ul class="social-icons list-inline">
-                                            <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <li class="social-twitter"><a class=" tooltip-top" target="_blank" href="" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
                                 </div> 
                                 <div class="featured-content featured-content-team">
                                     <div class="featured-title">
-                                        <h5><a href="#">Ousmane BAMBA</a></h5>
+                                        <h5><a href="https://www.linkedin.com/in/ousmane-bamba-b89563172">Ousmane BAMBA</a></h5>
                                     </div>
-                                    <p class="category">Co-fondateur</p>
+                                    <p class="category">Associé</p>
                                 </div>
-                            </div><!-- featured-imagebox-team end-->
+                            </div>
                             
-                            <!-- featured-imagebox-team -->
+                            <!-- DELI -->
                             <div class="featured-imagebox featured-imagebox-team">
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="https://via.placeholder.com/480X480/444444.jpg" alt="image">
                                     <div class="ttm-social-links-wrapper">
                                         <ul class="social-icons list-inline">
-                                            <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li class="social-twitter"><a class=" tooltip-top" target="_blank" href="" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.facebook.com/drokieu.deli.1/" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li class="social-twitter"><a class=" tooltip-top" target="_blank" href="https://www.linkedin.com/in/deli-dro/" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </div>
                                 </div> 
@@ -817,7 +744,7 @@
                                     </div>
                                     <p class="category">Développeur</p>
                                 </div>
-                            </div><!-- featured-imagebox-team end-->
+                            </div>
                         </div>
                     </div><!-- row end -->
                 </div>

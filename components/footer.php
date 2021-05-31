@@ -22,7 +22,7 @@
                                             <h5 style="color: #fff">Notre adresse</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p> Adresse, Quartier, Ville, Pays</p>
+                                            <p>61 AV LALLA YACOUT ANGLE MAANI ETG 2, Casablanca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -36,7 +36,7 @@
                                             <h5 style="color: #fff">Notre contact</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>+212 00 000 000</p>
+                                            <p>+212 693 667 494</p>
                                         </div>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@
                                             <h5 style="color: #fff">Notre email</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>info@auxano.com</p>
+                                            <p onclick="mailto:Auxanogroup.ca@gmail.com">muxanogroup.ca@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,9 +129,9 @@
                         <h3 class="widget-title">Nos représentations</h3>
                         <div class="textwidget widget-text">
                             <ul class="ttm-our-location-list">
-                                <li><i class="fa fa-map-marker"></i>Maroc : +212 00 000 000</li>
-                                <li><i class="fa fa-map-marker"></i>France : +33 00 000 000</li>
-                                <li><i class="fa fa-map-marker"></i>Côte d'Ivoire : +225 00 000 000</li>
+                                <li><i class="fa fa-map-marker"></i>Casablanca, Maroc : +212 693 667 494</li>
+                                <li><i class="fa fa-map-marker"></i>Abidjan, Côte d'Ivoire : +225 07 00 000 000 </li>
+                                <li><i class="fa fa-map-marker"></i>Dakar, Sénégal : +221 00 000 000</li>
                             </ul>
                         </div>
                     </div>
@@ -145,9 +145,9 @@
             <div class="row copyright">
                 <div class="col-md-12">
                     <ul id="menu-footer-menu" class="footer-nav-menu">
-                        <li><a target="_blank" href="#">Qui sommes-nous ?</a></li>
-                        <li><a target="_blank" href="produits.php">Produits</a></li>
-                        <li><a target="_blank" href="services-auxano.php">Services</a></li>
+                        <li><a href="aboutus-1.php">Qui sommes-nous ?</a></li>
+                        <li><a href="produits.php">Produits</a></li>
+                        <li><a href="services-auxano.php">Services</a></li>
                     </ul>
                 </div>
                 

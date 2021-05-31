@@ -1,4 +1,10 @@
 <?php session_start() ?>
+<?php
+    $produits = json_decode(
+        file_get_contents("admin/data-handler/data/produits.json"),
+        JSON_HEX_TAG
+    );
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -41,8 +47,8 @@
                     <!-- row -->
                     <div class="row d-block">
                         <div class="col-lg-9 content-area pull-left">
-                            <p class="products-result-count">Affichage de 1–5 sur 5 résultats</p>
-                            <!-- Tri -->
+                            <!-- <p class="products-result-count">Affichage de 1–5 sur 5 résultats</p>
+                            Tri 
                             <form class="products-ordering">
                                 <div class="orderby">
                                     <select name="orderby" class="select2-hidden-accessible">
@@ -53,129 +59,39 @@
                                         <option value="price">Plus ancien</option>
                                     </select>
                                 </div>
-                            </form>
+                            </form>-->
                             
                             <!-- Produits -->
-                            <div class="products row">
-                                <!-- product -->
-                                <div class="product col-lg-4 col-md-6 col-xs-12">
-                                    <div class="ttm-product-box">
-                                        <!-- ttm-product-box-inner -->
-                                        <div class="ttm-product-box-inner">
-                                            <div class="ttm-shop-icon">
-                                                <div class="product-btn add-to-cart-btn"><a href="#">Ajouter au panier</a></div>
-                                            </div>
-                                            <div class="ttm-product-image-box">
-                                                <img class="img-fluid" src="https://via.placeholder.com/600X697/444444.jpg" alt="">
-                                            </div>
-                                        </div><!-- ttm-product-box-inner end -->
-                                        <div class="ttm-product-content">
-                                            <a class="ttm-product-title" href="">
-                                                <h2>Produit</h2> <br>
-                                            </a>
-                                            <span class="price"><span class="product-Price-amount">
-                                                <span class="product-Price-currencySymbol"></span>10 000</span> F CFA
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- product end -->
-
-                                <!-- product -->
-                                <div class="product col-lg-4 col-md-6 col-xs-12">
-                                    <div class="ttm-product-box">
-                                        <!-- ttm-product-box-inner -->
-                                        <div class="ttm-product-box-inner">
-                                            <div class="ttm-shop-icon">
-                                                <div class="product-btn add-to-cart-btn"><a href="#">Ajouter au panier</a></div>
-                                            </div>
-                                            <div class="ttm-product-image-box">
-                                                <img class="img-fluid" src="https://via.placeholder.com/600X697/444444.jpg" alt="">
-                                            </div>
-                                        </div><!-- ttm-product-box-inner end -->
-                                        <div class="ttm-product-content">
-                                            <a class="ttm-product-title" href="">
-                                                <h2>Produit</h2> <br>
-                                            </a>
-                                            <span class="price"><span class="product-Price-amount">
-                                                <span class="product-Price-currencySymbol"></span>10 000</span> F CFA
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- product end -->
-
-                                <!-- product -->
-                                <div class="product col-lg-4 col-md-6 col-xs-12">
-                                    <div class="ttm-product-box">
-                                        <!-- ttm-product-box-inner -->
-                                        <div class="ttm-product-box-inner">
-                                            <div class="ttm-shop-icon">
-                                                <div class="product-btn add-to-cart-btn"><a href="#">Ajouter au panier</a></div>
-                                            </div>
-                                            <div class="ttm-product-image-box">
-                                                <img class="img-fluid" src="https://via.placeholder.com/600X697/444444.jpg" alt="">
-                                            </div>
-                                        </div><!-- ttm-product-box-inner end -->
-                                        <div class="ttm-product-content">
-                                            <a class="ttm-product-title" href="">
-                                                <h2>Produit</h2> <br>
-                                            </a>
-                                            <span class="price"><span class="product-Price-amount">
-                                                <span class="product-Price-currencySymbol"></span>10 000</span> F CFA
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- product end -->
-
-                                <!-- product -->
-                                <div class="product col-lg-4 col-md-6 col-xs-12">
-                                    <div class="ttm-product-box">
-                                        <!-- ttm-product-box-inner -->
-                                        <div class="ttm-product-box-inner">
-                                            <div class="ttm-shop-icon">
-                                                <div class="product-btn add-to-cart-btn"><a href="#">Ajouter au panier</a></div>
-                                            </div>
-                                            <div class="ttm-product-image-box">
-                                                <img class="img-fluid" src="https://via.placeholder.com/600X697/444444.jpg" alt="">
-                                            </div>
-                                        </div><!-- ttm-product-box-inner end -->
-                                        <div class="ttm-product-content">
-                                            <a class="ttm-product-title" href="">
-                                                <h2>Produit</h2> <br>
-                                            </a>
-                                            <span class="price"><span class="product-Price-amount">
-                                                <span class="product-Price-currencySymbol"></span>10 000</span> F CFA
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- product end -->
-
-                                <!-- product -->
-                                <div class="product col-lg-4 col-md-6 col-xs-12">
-                                    <div class="ttm-product-box">
-                                        <!-- ttm-product-box-inner -->
-                                        <div class="ttm-product-box-inner">
-                                            <div class="ttm-shop-icon">
-                                                <div class="product-btn add-to-cart-btn"><a href="#">Ajouter au panier</a></div>
-                                            </div>
-                                            <div class="ttm-product-image-box">
-                                                <img class="img-fluid" src="https://via.placeholder.com/600X697/444444.jpg" alt="">
-                                            </div>
-                                        </div><!-- ttm-product-box-inner end -->
-                                        <div class="ttm-product-content">
-                                            <a class="ttm-product-title" href="">
-                                                <h2>Produit</h2> <br>
-                                            </a>
-                                            <span class="price"><span class="product-Price-amount">
-                                                <span class="product-Price-currencySymbol"></span>10 000</span> F CFA
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- product end -->
+                            <div id="liste-produits" class="products row">
+                                <?php
+                                    $produits = $produits["produits"];
+                                    $output = "";
+                                    
+                                    for ($i=0; $i < count($produits); $i++) { 
+                                        # code...
+                                        $item = $produits[$i];
+                                        $output = $output .'<div class="product col-lg-4 col-md-6 col-xs-12"><div class="ttm-product-box">
+                                                <div class="ttm-product-box-inner">
+                                                    <div class="ttm-shop-icon">
+                                                        <div class="product-btn add-to-cart-btn" onclick="addToBasket("'. $item["id"] .'")">Ajouter au panier</div>
+                                                    </div>
+                                                    <div class="ttm-product-image-box">
+                                                        <img class="img-fluid" src="'. $item["image"] .'">
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="ttm-product-content">
+                                                    <a class="ttm-product-title" href="">
+                                                        <h2>'. $item["nom"] .'</h2> <br>
+                                                    </a>
+                                                    <span class="price"><span class="product-Price-amount">
+                                                        <span class="product-Price-currencySymbol"></span>'. $item["prix"] .'</span> F CFA
+                                                    </span>
+                                                </div>
+                                            </div></div>';
+                                    }
+                                    echo $output;
+                                ?>
                                 
                             </div>
                             

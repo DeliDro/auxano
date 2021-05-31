@@ -11,20 +11,19 @@
         <div class="container">
             <div class="ttm-topbar-content">
                 <ul class="top-contact ttm-highlight-left text-left">
-                    <li><i class="fa fa-clock-o"></i><strong>Heures d'ouvertures :</strong> 7j/7 8:00 - 18.00</li>
+                    <li><i class="fa fa-clock-o"></i><strong>Heures d'ouvertures :</strong> 7j/7 7:00 - 18.00</li>
                 </ul>
                 
                 <div class="topbar-right text-right">
                     <ul class="top-contact">
-                        <li><i class="fa fa-envelope-o"></i><a href="mailto:info@auxano.com">info@auxano.com</a></li>
-                        <li><i class="fa fa-phone"></i>+212 00 000 000</li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:info@auxano.com">Auxanogroup.ca@gmail.com</a></li>
+                        <li><i class="fa fa-phone"></i>+212 693 667 494</li>
                     </ul>
                     
                     <div class="ttm-social-links-wrapper list-inline">
                         <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/AuxanoGroup"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/auxanogroupmaroc"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>

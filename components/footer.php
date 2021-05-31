@@ -22,7 +22,7 @@
                                             <h5 style="color: #fff">Notre adresse</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>61 AV LALLA YACOUT ANGLE MAANI ETG 2, Casablanca</p>
+                                            <p>61 AV LALLA YACOUT ANGLE MAANI <br> ETG 2, Casablanca</p>
                                         </div>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@
                                             <h5 style="color: #fff">Notre email</h5>
                                         </div>
                                         <div class="featured-desc">
-                                            <p onclick="mailto:Auxanogroup.ca@gmail.com">muxanogroup.ca@gmail.com</p>
+                                            <p onclick="mailto:Auxanogroup.ca@gmail.com">auxanogroup.ca@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>

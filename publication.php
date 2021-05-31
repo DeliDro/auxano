@@ -1,4 +1,7 @@
 <?php session_start() ?>
+<?php $publications = json_encode(file_get_contents("admin/data-handler/data/publications.json"), JSON_HEX_TAG); ?>
+<script>const publication = JSON.parse(<?php echo $publications ?>).publications.find(i => i.id === <?php echo (int) $_GET["id"] ?>);</script>
+<script>console.log("publication : ", publication)</script>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -11,27 +14,8 @@
 
         <?php include("components/header.php") ?>
 
-        <!-- page-title -->
-        <div class="ttm-page-title-row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12"> 
-                        <div class="title-box ttm-textcolor-white">
-                            <div class="page-title-heading">
-                                <h1 class="title">Titre publication</h1>
-                            </div><!-- /.page-title-captions -->
-                            <div class="breadcrumb-wrapper">
-                                <span>
-                                    <a title="Homepage" href="index.php"><i class="ti ti-home"></i>&nbsp;&nbsp;Accueil</a>
-                                </span>
-                                <span class="ttm-bread-sep">&nbsp; | &nbsp;</span>
-                                <span style="font-weight: bold; color: white"> Titre Publication </span>
-                            </div>  
-                        </div>
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
-        </div><!-- page-title end-->
+        <?php include("components/title.php") ?>
+        <script>setTitlePage()</script>
 
         <!--site-main start-->
         <div class="site-main">

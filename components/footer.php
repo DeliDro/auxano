@@ -88,42 +88,45 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- LINENS UTILIES -->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_nav_menu clearfix">
                         <h3 class="widget-title">Liens utiles</h3>
                         <ul id="menu-footer-services">
-                            <li><a href="#">Produits</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Qui sommes-nous ?</a></li>
-                            <li><a href="#">Nous contacter</a></li>
-                            <li><a href="#">Notre équipe</a></li>
+                            <li><a href="produits.php">Produits</a></li>
+                            <li><a href="services-auxano.php">Services</a></li>
+                            <li><a href="aboutus-1.php">Qui sommes-nous ?</a></li>
+                            <li><a href="nous-contacter.php">Nous contacter</a></li>
                         </ul>
                     </div>
                 </div>
+                
+                <!-- DERNIERS ARTICLES   -->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_text clearfix">
                         <h3 class="widget-title">Derniers articles</h3>
-                        <ul class="widget-post ttm-recent-post-list">
-                            <li>
-                                <a href="#"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                <span class="post-date">07 Mai 2021</span>
-                                <a href="#">Article 1</a>
-                            </li>
-                            
-                            <li>
-                                <a href="#"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                <span class="post-date">07 Mai 2021</span>
-                                <a href="#">Article 2</a>
-                            </li>
-                            
-                            <li>
-                                <a href="#"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                <span class="post-date">07 Mai 2021</span>
-                                <a href="#">Article 3</a>
-                            </li>
+                        <ul id="last-articles" class="widget-post ttm-recent-post-list">
+                            <script>
+                                const lastPubs = JSON
+                                    .parse(<?php 
+                                        echo json_encode(file_get_contents("admin/data-handler/data/publications.json"), JSON_HEX_TAG);
+                                    ?>)
+                                    .publications
+                                    .slice(0, 3);
+                                
+                                document.getElementById("last-articles").innerHTML = lastPubs.map(pub => `
+                                    <li>
+                                        <img src="${pub.image}" alt="image">
+                                        <span class="post-date">${pub.date}</span>
+                                        <a href="publication.php?id=${pub.id}">${pub.titre}</a>
+                                    </li>
+                                `).join("");
+                            </script>
                         </ul>
                     </div>
                 </div>
+                
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget flicker_widget clearfix">
                         <h3 class="widget-title">Nos représentations</h3>

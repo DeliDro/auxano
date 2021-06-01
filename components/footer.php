@@ -108,14 +108,14 @@
                         <h3 class="widget-title">Derniers articles</h3>
                         <ul id="last-articles" class="widget-post ttm-recent-post-list">
                             <script>
-                                const lastPubs = JSON
+                                const lastArts = JSON
                                     .parse(<?php 
                                         echo json_encode(file_get_contents("admin/data-handler/data/publications.json"), JSON_HEX_TAG);
                                     ?>)
                                     .publications
                                     .slice(0, 3);
                                 
-                                document.getElementById("last-articles").innerHTML = lastPubs.map(pub => `
+                                document.getElementById("last-articles").innerHTML = lastArts.map(pub => `
                                     <li>
                                         <img src="${pub.image}" alt="image">
                                         <span class="post-date">${pub.date}</span>

@@ -3,7 +3,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Auxano Group" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="stylesheet" href="admin/tailwind.min.css">
     <title>Auxano Group</title>
 
     <!-- favicon icon -->

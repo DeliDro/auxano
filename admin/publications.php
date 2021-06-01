@@ -85,7 +85,12 @@
                                 
                                 <div class="mt-6">
                                     <label class=" block text-sm text-gray-600" for="contenu">Contenu</label>
-                                    <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="contenu" name="contenu" rows="6" required="" placeholder="Saisir le contenu"></textarea>
+                                    <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="contenu" name="contenu" rows="6" required="" placeholder="Saisir le contenu">
+                                    [titre] Titre de l'article
+                                        [citation] Une phrase importante
+                                        [image] Une image à insérer
+                                        Texte
+                                    </textarea>
                                 </div>
                                 
                                 <div class="mt-6">
@@ -131,7 +136,9 @@
                                 </div>
                                 <div class="mt-6">
                                     <label class=" block text-sm text-gray-600" for="edit-contenu">Contenu</label>
-                                    <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="edit-contenu" name="edit-contenu" rows="6" required="" placeholder="Saisir le contenu"></textarea>
+                                    <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="edit-contenu" name="edit-contenu" rows="6" required="" placeholder="Saisir le contenu">
+                                        
+                                    </textarea>
                                 </div>
                                 <div class="mt-6">
                                     <button

@@ -1,7 +1,6 @@
 <?php session_start() ?>
 <?php $publications = json_encode(file_get_contents("admin/data-handler/data/publications.json"), JSON_HEX_TAG); ?>
 <script>const publication = JSON.parse(<?php echo $publications ?>).publications.find(i => i.id === <?php echo (int) $_GET["id"] ?>);</script>
-<script>console.log("publication : ", publication)</script>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -15,63 +14,49 @@
         <?php include("components/header.php") ?>
 
         <?php include("components/title.php") ?>
-        <script>setTitlePage()</script>
 
         <!--site-main start-->
         <div class="site-main">
             <!-- sidebar -->
             <div class="sidebar ttm-sidebar-right ttm-bgcolor-white clearfix">
                 <div class="container">
-                    <!-- row -->
                     <div class="row d-block">
+                        <!-- ARTICLE -->
                         <div class="col-lg-9 content-area pull-left">
-                            <!-- ttm-blog-classic-->
-                            <article class="post ttm-blog-classic">
-                            <div class="featured-imagebox featured-imagebox-post">
-                                <!-- Image de l'article -->
-                                    <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="https://via.placeholder.com/1200X800/444444.jpg" alt="image de l'article">
-                                        <div class="featured-icon">
-                                            <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-background-color-skincolor ttm-icon_element-size-xs">
-                                                <i class="ti ti-pencil"></i>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <article id="article-content" class="post ttm-blog-classic">
+                                <script>
+                                    function formatRow(row) {
+                                        if (row.includes("[titre]"))
+                                            return `<h4>
+                                                ${row.replace(/\[titre\]/, "")}
+                                            </h4>`;
+                                        
+                                        if (row.includes("[citation]"))
+                                            return `<blockquote>
+                                                <p class="mb-20">${row.replace(/\[citation\]/, "")}</p>
+                                            </blockquote>`;
+                                        
+                                        if (row.includes("[image]"))
+                                            return `<div class="featured-thumbnail">
+                                                <img class="img-fluid" src="${row.replace(/\[image\]/, "")}" alt="image">
+                                            </div>`;
+                                        
+                                        return `<p>${row}</p>`;
+                                    }
 
-                                    <!--  Date / Nombre de vue -->
-                                    <div class="featured-content featured-content-post">
-                                        <div class="post-meta">
-                                            <span class="ttm-meta-line"><i class="fa fa-calendar"></i>19 Mai 2021</span>
-                                            <span class="ttm-meta-line"><i class="fa fa-eye"></i>2 vues</span>
-                                        </div>
-                                        <div class="separator">
-                                            <div class="sep-line solid mt-10 mb-20"></div>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <p>Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction</p>
-                                            <p>Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore Introduction encore</p>
-                                            <p>Introduction encore de encore Introduction encore de encore Introduction encore de encore Introduction encore de encore Introduction encore de encore Introduction encore de encore</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ttm-blog-classic-content single-blog">
-                                    <div class="mb-30">
-                                        <img src="https://via.placeholder.com/1200X800/444444.jpg" class="img-fluid" alt="blog-1">
-                                    </div>
-                                    <h4>Titre de section</h4>
-                                        <p>Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section </p>
-                                        <p>Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section Contenu de la section </p>
-                                    <blockquote>
-                                        <p class="mb-20">Citation Importante</p>
-                                    </blockquote>
-                                    <p>Du texte encore</p>
+                                    let output = [
+                                        '<div class="ttm-blog-classic-content single-blog">',
+                                        ...publication.contenu.split("\r\n")
+                                    ];
                                     
-                                    <div class="separator">
-                                        <div class="sep-line solid mt-30 mb-30"></div>
-                                    </div>
-                                </div>
+                                    output = output.map(row => formatRow(row) );
+                                    
+                                    output.push('<div class="separator"><div class="sep-line solid mt-30 mb-30"></div></div></div>')
+                                    output = output.join("");
+                                    
+                                    document.getElementById("article-content").innerHTML = output;
+                                </script>
                             </article>
-                            <!-- ttm-blog-classic end -->
                         </div>
 
                         <!-- Tags / Auteur / Dernières publications -->
@@ -80,14 +65,18 @@
                             <!-- Tags -->
                             <aside class="widget tagcloud-widget">
                                 <h3 class="widget-title">Tags</h3>
-                                <div class="tagcloud">
-                                    <a class="tag-cloud-link">Tag 1</a>
-                                    <a class="tag-cloud-link">Tag 2</a>
+                                <div id="article-tags" class="tagcloud">
+                                    <script>
+                                        document.getElementById("article-tags").innerHTML = publication.tags
+                                            .split(",")
+                                            .map(tag => `<a class="tag-cloud-link">${tag}</a>`)
+                                            .join("");
+                                    </script>
                                 </div>
                             </aside>
 
                             <!-- Auteur -->
-                            <aside class="widget widget-text">
+                            <!-- <aside class="widget widget-text">
                                 <div class="ttm-author-widget">
                                     <div class="author-widget_img">
                                         <img class="author-img" src="https://via.placeholder.com/175X175/444444.png" alt="image auteur">
@@ -95,31 +84,32 @@
                                     <h4 class="author-name">Auteur</h4>
                                     <p class="author-widget_text">Description de l'auteur</p>
                                 </div>
-                            </aside>
+                            </aside> -->
                             
                             <!-- Dernières publications -->
                             <aside class="widget post-widget">
                                 <h3 class="widget-title">Dernières publications</h3>
-                                <ul class="widget-post ttm-recent-post-list">
-                                    <li>
-                                        <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                        <span class="post-date">19 Mai 2021</span>
-                                        <a href="publication.php" class="clearfix">Titre</a>
-                                    </li>
-                                    <li>
-                                        <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                        <span class="post-date">19 Mai 2021</span>
-                                        <a href="publication.php" class="clearfix">Titre/a>
-                                    </li>
-                                    <li>
-                                        <a href="publication.php"><img src="https://via.placeholder.com/150X150/444444.jpg" alt="post-img"></a>
-                                        <span class="post-date">19 Mai 2021</span>
-                                        <a href="publication.php" class="clearfix">Titre</a>
-                                    </li>
+                                <ul id='last-pubs' class="widget-post ttm-recent-post-list">
+                                    <script>
+                                        const lastPubs = JSON
+                                            .parse(<?php 
+                                                echo json_encode(file_get_contents("admin/data-handler/data/publications.json"), JSON_HEX_TAG);
+                                            ?>)
+                                            .publications
+                                            .slice(0, 3);
+                                        
+                                        document.getElementById("last-pubs").innerHTML = lastPubs.map(pub => `
+                                            <li>
+                                                <img src="${pub.image}" alt="image">
+                                                <span class="post-date">${pub.date}</span>
+                                                <a href="publication.php?id=${pub.id}">${pub.titre}</a>
+                                            </li>
+                                        `).join("");
+                                    </script>
                                 </ul>
                             </aside>
                         </div>
-                    </div><!-- row end -->
+                    </div>
 
                 </div>
             </div>

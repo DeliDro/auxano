@@ -22,7 +22,7 @@
 
                     setTHead(["titre", "auteur", "tags", "contenu"]);
 
-                    setTBody(data.publications, "publications", ["titre", "auteur", "tags", "contenu"], "publication");
+                    setTBody(data.publications, "publications", ["titre", "auteur", "tags", "contenu"]);
 
                     function showForm(formName) {
                         var doc = document.getElementById(formName);

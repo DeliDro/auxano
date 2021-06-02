@@ -1,4 +1,13 @@
 {
-    "offres": [],
-    "maxId": 0
+    "offres": [
+        {
+            "id": 1,
+            "intitule": "CAISSIERE",
+            "places": "2",
+            "salaire": "125 000 FCFA \/ mois pendant 08 mois",
+            "prerequis": "Gentille",
+            "description": "CECI, CELA"
+        }
+    ],
+    "maxId": 1
 }

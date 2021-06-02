@@ -16,7 +16,7 @@
                 
                 <div class="topbar-right text-right">
                     <ul class="top-contact">
-                        <li><i class="fa fa-envelope-o"></i><a href="mailto:info@auxano.com">Auxanogroup.ca@gmail.com</a></li>
+                        <li><i class="fa fa-envelope-o"></i><a href="mailto:auxanogroup.ca@gmail.com">auxanogroup.ca@gmail.com</a></li>
                         <li><i class="fa fa-phone"></i>+212 693 667 494</li>
                     </ul>
                     

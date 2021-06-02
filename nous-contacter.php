@@ -58,7 +58,7 @@
                                     <li>
                                         <h6>Nore e-mail</h6>
                                         <i class="ttm-textcolor-skincolor ti ti-comment"></i>
-                                        <span><a href="mailto:info@auxano.com">info@auxano.com</a></span>
+                                        <span><a href="mailto:auxanogroup.ca@gmail.com">auxanogroup.ca@gmail.com</a></span>
                                     </li>
                                     <li>
                                         <h6>Notre numéro</h6>

@@ -46,6 +46,15 @@ if (isset($_GET["id"]) && isset($_GET["on"])) {
             $post["facture"] = isset($_POST["edit-facture"]) ? $_POST["edit-facture"] : "";
             break;
         
+        case "offres":
+            # code...
+            $post["id"] = $id;
+            $post["intitule"] = isset($_POST["edit-intitule"]) ? $_POST["edit-intitule"] : "";
+            $post["places"] = isset($_POST["edit-places"]) ? $_POST["edit-places"] : "";
+            $post["salaire"] = isset($_POST["edit-salaire"]) ? $_POST["edit-salaire"] : "";
+            $post["prerequis"] = isset($_POST["edit-prerequis"]) ? $_POST["edit-prerequis"] : "";
+            $post["description"] = isset($_POST["edit-description"]) ? $_POST["edit-description"] : "";
+        
         default:
             # code...
             break;

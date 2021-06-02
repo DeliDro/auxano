@@ -20,9 +20,9 @@
 
                     setTableTitle("Liste des offres");
                     
-                    setTHead(["nom", "categorie", "image", "prix", "reduction", "description"]);
+                    setTHead(["intitule", "places", "salaire", "description"]);
 
-                    setTBody(data.offres, "offres", ["nom", "categorie", "image", "prix", "reduction", "description"], "publication");
+                    setTBody(data.offres, "offres", ["intitule", "places", "salaire", "description"]);
 
                     function showForm(formName) {
                         var doc = document.getElementById(formName);
@@ -37,17 +37,13 @@
                         document.getElementById("edit-form").style.display = "block";
 
                         document.getElementById("edit-form-real").action = `data-handler/edit.php?on=offres&id=${id}`;
-                        const fields = ["nom", "prix", "reduction", "description"];
+                        const fields = ["intitule", "places", "prerequis", "salaire", "description"];
                         
                         const selected = data.offres.find(i => i.id === id);
 
                         for (const field of fields) {
                             document.getElementById("edit-" + field).value = selected[field];
                         }
-
-                        document.getElementById("edit-select-categorie").innerHTML = categories
-                            .map(i => `<option ${i === selected.categorie ? "selected" : ""}>${i}</option>`)
-                            .join("");
                     }
 
                     function deleteData(id) {
@@ -62,6 +58,7 @@
                     class="m-6 bg-blue-600 text-sm font-bold p-2 rounded-lg shadow text-white cursor-pointer hover:bg-blue-500 ease-in-out duration-100"
                 >
                 
+                <!-- AJOUTER -->
                 <div class="flex flex-wrap" style="display: none" id="add-form">
                     <div class="w-full my-6 pr-0">
                         <p class="text-xl pb-6 flex items-center">
@@ -76,42 +73,23 @@
                                 class="p-10 bg-white rounded shadow-xl"
                             >
                                 <div>
-                                    <label class="block text-sm text-gray-600" for="nom">Nom</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="nom" name="nom" type="text" required="" placeholder="Nom" aria-label="Nom">
+                                    <label class="block text-sm text-gray-600" for="intitule">Intitule</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="intitule" name="intitule" type="text" required="" placeholder="Intitule" aria-label="Intitule">
                                 </div>
                                 
                                 <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="image">Image</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="image" name="image" type="file" required="" placeholder="Lien image" aria-label="Image">
+                                    <label class="block text-sm text-gray-600" for="places">Places</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="places" name="places" type="number" required="" placeholder="Nombre de places" aria-label="Places">
                                 </div>
 
                                 <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="edit-categorie">Catégorie</label>
-                                    <div class="flex items-center">
-                                        <select name="select-categorie" id="select-categorie">
-                                            <script>
-                                                var categories = JSON
-                                                    .parse(<?php echo json_encode(file_get_contents("data-handler/data/offres.json"), JSON_HEX_TAG) ?>)
-                                                    .offres
-                                                    .map(offre => offre.categorie);
-                                                
-                                                document.getElementById("select-categorie").innerHTML = categories
-                                                    .map(categorie => `<option>${categorie}</option>`)
-                                                    .join("");
-                                            </script>
-                                        </select>
-                                        <input class="w-full ml-10 px-5 py-1 text-gray-700 bg-gray-200 rounded" id="new-categorie" name="new-categorie" type="text" placeholder="Nouvelle catégorie" aria-label="Catégorie">
-                                    </div>
+                                    <label class="block text-sm text-gray-600" for="salaire">Salaire</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="salaire" name="salaire" type="text" placeholder="Salaire" aria-label="Salaire">
                                 </div>
                                 
                                 <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="prix">Prix</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="prix" name="prix" type="number" required="" placeholder="Prix" aria-label="Prix">
-                                </div>
-                                
-                                <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="reduction">Réduction</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="reduction" name="reduction" type="number" required="" placeholder="Réduction" aria-label="Réduction">
+                                    <label class="block text-sm text-gray-600" for="prerequis">Prérequis</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="prerequis" name="prerequis" type="text" required="" placeholder="Prérequis du poste" aria-label="Prerequis">
                                 </div>
                                 
                                 <div class="mt-6">
@@ -131,7 +109,8 @@
                         </div>
                     </div>
                 </div>
-
+                
+                <!-- MODIFIER -->
                 <div class="flex flex-wrap" style="display: none" id="edit-form">
                     <div class="w-full my-6 pr-0">
                         <p class="text-xl pb-6 flex items-center">
@@ -143,39 +122,34 @@
                             <form
                                 id="edit-form-real"
                                 method="POST"
+                                action="data-handler/edit.php?on=offres"
                                 class="p-10 bg-white rounded shadow-xl"
                             >
                                 <div>
-                                    <label class="block text-sm text-gray-600" for="edit-nom">Nom</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-nom" name="edit-nom" type="text" required="" placeholder="Nom" aria-label="Nom">
+                                    <label class="block text-sm text-gray-600" for="edit-intitule">Intitule</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-intitule" name="edit-intitule" type="text" required="" placeholder="Intitule" aria-label="Intitule">
                                 </div>
                                 
                                 <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="edit-image">Image</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-image" name="edit-image" type="file" required="" placeholder="Lien image" aria-label="Image">
+                                    <label class="block text-sm text-gray-600" for="edit-places">Places</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-places" name="edit-places" type="number" required="" placeholder="Nombre de places" aria-label="Places">
+                                </div>
+
+                                <div class="mt-6">
+                                    <label class="block text-sm text-gray-600" for="edit-salaire">Salaire</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-salaire" name="edit-salaire" type="text" placeholder="Salaire" aria-label="Salaire">
                                 </div>
                                 
                                 <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="edit-categorie">Catégorie</label>
-                                    <div class="flex items-center">
-                                        <select name="edit-select-categorie" id="edit-select-categorie"></select>
-                                        <input class="w-full ml-10 px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-categorie" name="edit-categorie" type="text" placeholder="Nouvelle catégorie" aria-label="Catégorie">
-                                    </div>
+                                    <label class="block text-sm text-gray-600" for="edit-prerequis">Prérequis</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-prerequis" name="edit-prerequis" type="text" required="" placeholder="Prérequis du poste" aria-label="Prerequis">
                                 </div>
                                 
-                                <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="edit-prix">Prix</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-prix" name="edit-prix" type="text" required="" placeholder="Prix" aria-label="Prix">
-                                </div>
-                                
-                                <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="reduction">Réduction</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-reduction" name="edit-reduction" type="number" required="" placeholder="Réduction" aria-label="Réduction">
-                                </div>
                                 <div class="mt-6">
                                     <label class=" block text-sm text-gray-600" for="edit-description">Description</label>
                                     <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="edit-description" name="edit-description" rows="6" required="" placeholder="Saisir le description"></textarea>
                                 </div>
+                                
                                 <div class="mt-6">
                                     <button
                                         class="px-4 py-1 text-white font-light tracking-wider bg-gray-900 rounded"

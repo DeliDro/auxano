@@ -116,11 +116,8 @@ function formatRaw(key_, value, schema){
             
             break;
         
-        case "commandes":
-            output += `<div class="text-sm text-gray-900">${key_ === "contenu" ? value.slice(0, 50) + "..." : value }</div>`;
-            break;
-    
         default:
+            output += `<div class="text-sm text-gray-900">${key_ === "contenu" ? value.slice(0, 50) + "..." : value }</div>`;
             break;
     }
 

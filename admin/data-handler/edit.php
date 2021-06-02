@@ -30,6 +30,7 @@ if (isset($_GET["id"]) && isset($_GET["on"])) {
             $post["id"] = $id;
             $post["nom"] = isset($_POST["edit-nom"]) ? $_POST["edit-nom"] : "";
             $post["image"] = isset($_POST["edit-image"]) ? $_POST["edit-image"] : "";
+            $post["categorie"] = isset($_POST["edit-new-categorie"]) ? $_POST["edit-new-categorie"] : $_POST["edit-select-categorie"];
             $post["prix"] = isset($_POST["edit-prix"]) ? $_POST["edit-prix"] : "";
             $post["reduction"] = isset($_POST["edit-reduction"]) ? $_POST["edit-reduction"] : "";
             $post["description"] = isset($_POST["edit-description"]) ? $_POST["edit-description"] : "";

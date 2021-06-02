@@ -19,36 +19,42 @@
                     const data = JSON.parse(<?php echo json_encode(file_get_contents("data-handler/data/produits.json"), JSON_HEX_TAG);?>);
 
                     setTableTitle("Liste des produits");
-
-                    console.log(data.produits);
                     
                     setTHead(["nom", "categorie", "image", "prix", "reduction", "description"]);
 
                     setTBody(data.produits, "produits", ["nom", "categorie", "image", "prix", "reduction", "description"]);
 
                     function showForm(formName) {
-                        const doc = document.getElementById(formName);
+                        var doc = document.getElementById(formName);
                         doc.style.display = doc.style.display == "none" ? "block" : "none";
+
+                        doc = document.getElementById("edit-form");
+                        doc.style.display = "none";
                     }
 
                     function showEdit(id) {
+                        document.getElementById("add-form").style.display = "none";
                         document.getElementById("edit-form").style.display = "block";
 
                         document.getElementById("edit-form-real").action = `data-handler/edit.php?on=produits&id=${id}`;
-                        const fields = ["nom", "categorie", "prix", "reduction", "description"];
+                        const fields = ["nom", "prix", "reduction", "description"];
                         
                         const selected = data.produits.find(i => i.id === id);
 
                         for (const field of fields) {
                             document.getElementById("edit-" + field).value = selected[field];
                         }
+
+                        document.getElementById("edit-select-categorie").innerHTML = categories
+                            .map(i => `<option ${i === selected.categorie ? "selected" : ""}>${i}</option>`)
+                            .join("");
                     }
 
                     function deleteData(id) {
                         window.location = `data-handler/delete.php?on=produits&id=${id}`;
                     }
                 </script>
-
+                    
                 <input
                     type="button"
                     value="Créer un produit"
@@ -78,10 +84,24 @@
                                     <label class="block text-sm text-gray-600" for="image">Image</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="image" name="image" type="file" required="" placeholder="Lien image" aria-label="Image">
                                 </div>
-                                
-                                <div>
-                                    <label class="block text-sm text-gray-600" for="categorie">Catégorie</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="categorie" name="categorie" type="text" required="" placeholder="Catégorie" aria-label="Categorie">
+
+                                <div class="mt-6">
+                                    <label class="block text-sm text-gray-600" for="edit-categorie">Catégorie</label>
+                                    <div class="flex items-center">
+                                        <select name="select-categorie" id="select-categorie">
+                                            <script>
+                                                var categories = JSON
+                                                    .parse(<?php echo json_encode(file_get_contents("data-handler/data/produits.json"), JSON_HEX_TAG) ?>)
+                                                    .produits
+                                                    .map(produit => produit.categorie);
+                                                
+                                                document.getElementById("select-categorie").innerHTML = categories
+                                                    .map(categorie => `<option>${categorie}</option>`)
+                                                    .join("");
+                                            </script>
+                                        </select>
+                                        <input class="w-full ml-10 px-5 py-1 text-gray-700 bg-gray-200 rounded" id="new-categorie" name="new-categorie" type="text" placeholder="Nouvelle catégorie" aria-label="Catégorie">
+                                    </div>
                                 </div>
                                 
                                 <div class="mt-6">
@@ -133,6 +153,14 @@
                                 <div class="mt-6">
                                     <label class="block text-sm text-gray-600" for="edit-image">Image</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-image" name="edit-image" type="file" required="" placeholder="Lien image" aria-label="Image">
+                                </div>
+                                
+                                <div class="mt-6">
+                                    <label class="block text-sm text-gray-600" for="edit-categorie">Catégorie</label>
+                                    <div class="flex items-center">
+                                        <select name="edit-select-categorie" id="edit-select-categorie"></select>
+                                        <input class="w-full ml-10 px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-categorie" name="edit-categorie" type="text" placeholder="Nouvelle catégorie" aria-label="Catégorie">
+                                    </div>
                                 </div>
                                 
                                 <div class="mt-6">

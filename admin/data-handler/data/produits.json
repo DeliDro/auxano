@@ -1,23 +1,14 @@
 {
     "produits": [
         {
-            "nom": "Produit",
-            "image": "WhatsApp Image 2021-05-21 at 18.10.16.jpeg",
-            "categorie": "mdslfks",
-            "prix": "522",
-            "reduction": "646",
-            "description": "ldskfmlds",
-            "id": 5
-        },
-        {
-            "nom": "produit 2",
-            "image": "WhatsApp Image 2021-05-21 at 18.10.16.jpeg",
-            "categorie": "test",
-            "prix": "2000",
-            "reduction": "23",
-            "description": "DEDe",
-            "id": 6
+            "nom": "SANDALES 2015",
+            "image": "WhatsApp Image 2021-05-21 at 18.10.16 (1).jpeg",
+            "prix": "2500",
+            "reduction": "1459",
+            "description": "MA DESCRIPTION",
+            "id": 10,
+            "categorie": "CHAUSSURES"
         }
     ],
-    "maxId": 6
+    "maxId": 10
 }

@@ -61,7 +61,6 @@
                                             </div>
                                             <div class="post-meta">
                                                 <span class="ttm-meta-line"><i class="fa fa-calendar"></i>'. $item["date"] .'</a></span>
-                                                <span class="ttm-meta-line"><i class="fa fa-eye"></i>0 vues</span>
                                             </div>
                                         </div>
                                     </div><!-- featured-imagebox-post end-->

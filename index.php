@@ -879,7 +879,6 @@
                                     </div>
                                     <div class="post-meta">
                                         <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
-                                        <span class="ttm-meta-line"><i class="fa fa-eye"></i>100 vues</span>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox-post end -->
@@ -894,7 +893,6 @@
                                     </div>
                                     <div class="post-meta">
                                         <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
-                                        <span class="ttm-meta-line"><i class="fa fa-eye"></i>4 vues</span>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox-post end -->
@@ -909,7 +907,6 @@
                                     </div>
                                     <div class="post-meta">
                                         <span class="ttm-meta-line"><i class="fa fa-calendar"></i>10 Mai 2021</span>
-                                        <span class="ttm-meta-line"><i class="fa fa-eye"></i>0 vues</span>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox-post end-->

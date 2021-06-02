@@ -70,6 +70,8 @@
                                     
                                     <li><a href="publications.php">Publications</a></li>
                                     
+                                    <li><a href="offres.php">Emplois</a></li>
+                                    
                                     <li><a href="#">A Propos</a></li>
                                     
                                     <li><a href="nous-contacter.php">Nous contacter</a></li>

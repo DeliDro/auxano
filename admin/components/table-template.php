@@ -46,6 +46,7 @@ function setTBody(lines, schema, heads) {
         const raw = ["<tr>"];
 
         let colIndex = 0;
+        
         for (i of heads) {
             if(i !== "id") raw.push(formatRaw(i, data[i], schema));
         }
@@ -54,8 +55,8 @@ function setTBody(lines, schema, heads) {
             <td
                 class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium cursor-pointer"
             >
-                <div class="text-gray-500 hover:text-blue-400" onclick="show_data(${data.id})">
-                    Afficher
+                <div class="text-gray-500 hover:text-blue-400">
+                    <a target="_blank" href="/${schema.slice(0, schema.length-1)}.php?id=${data.id}">Afficher</a>
                 </div>
                 <div class="text-gray-500 hover:text-green-400" onclick="showEdit(${data.id})">
                     Modifier

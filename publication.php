@@ -63,6 +63,18 @@
                         <!-- Tags / Auteur / Dernières publications -->
                         <div class="col-lg-3 widget-area ttm-bgcolor-grey pull-right">
 
+                            <!-- Auteur -->
+                            <aside class="widget widget-text">
+                                <h3 class="widget-title">Auteur</h3>
+                                <div class="ttm-author-widget" id="auteur-box">
+                                    <script>
+                                        document.getElementById("auteur-box").innerHTML = `
+                                            <h6>${publication.auteur}</h6>
+                                            <p class="author-widget_text">${publication["description-auteur"]}</p>`;
+                                    </script>
+                                </div>
+                            </aside>
+
                             <!-- Tags -->
                             <aside class="widget tagcloud-widget">
                                 <h3 class="widget-title">Tags</h3>
@@ -75,17 +87,6 @@
                                     </script>
                                 </div>
                             </aside>
-
-                            <!-- Auteur -->
-                            <!-- <aside class="widget widget-text">
-                                <div class="ttm-author-widget">
-                                    <div class="author-widget_img">
-                                        <img class="author-img" src="https://via.placeholder.com/175X175/444444.png" alt="image auteur">
-                                    </div>
-                                    <h4 class="author-name">Auteur</h4>
-                                    <p class="author-widget_text">Description de l'auteur</p>
-                                </div>
-                            </aside> -->
                             
                             <!-- Dernières publications -->
                             <aside class="widget post-widget">

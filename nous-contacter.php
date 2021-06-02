@@ -126,14 +126,11 @@
                 </div>
             </section>
             <!-- contact-form-section END-->
-        </div><!--site-main end-->
+        </div>
 
         <?php include("components/footer.php") ?>
 
-    </div><!-- page end -->
-
-
-    <!-- Javascript -->
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
@@ -163,9 +160,6 @@
         google.maps.event.addDomListener(window, "load", initialize);
 
     </script>
-
-
-    <!-- Javascript end-->
 
 </body>
 </html>

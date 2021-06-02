@@ -11,27 +11,8 @@
 
         <?php include("components/header.php") ?>
 
-        <!-- page-title -->
-        <div class="ttm-page-title-row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12"> 
-                        <div class="title-box ttm-textcolor-white">
-                            <div class="page-title-heading">
-                                <h1 class="title"> Services</h1>
-                            </div><!-- /.page-title-captions -->
-                            <div class="breadcrumb-wrapper">
-                                <span>
-                                    <a title="Homepage" href="index.php"><i class="ti ti-home"></i>&nbsp;&nbsp;Accueil</a>
-                                </span>
-                                <span class="ttm-bread-sep">&nbsp; | &nbsp;</span>
-                                <span style="color: #103d6a"> Services </span>
-                            </div>  
-                        </div>
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
-        </div><!-- page-title end-->
+        <?php include("components/title.php") ?>
+        <script>setPageTitle("Services")</script>
 
         <!--site-main start-->
         <div class="site-main">
@@ -52,14 +33,11 @@
                 </div>
             </div>
             <!-- sidebar end -->
-        </div><!--site-main end-->
+        </div>
 
         <?php include("components/footer.php") ?>
 
-    </div><!-- page end -->
-
-
-    <!-- Javascript -->
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
@@ -118,8 +96,5 @@
           options: chartOptions
         });
    </script> 
-
-    <!-- Javascript end-->
-
 </body>
 </html>

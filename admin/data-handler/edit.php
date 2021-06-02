@@ -19,9 +19,10 @@ if (isset($_GET["id"]) && isset($_GET["on"])) {
             # code...
             $post["id"] = $id;
             $post["titre"] = isset($_POST["edit-titre"]) ? $_POST["edit-titre"] : "";
+            $post["auteur"] = isset($_POST["edit-auteur"]) ? $_POST["edit-auteur"] : "";
+            $post["description-auteur"] = isset($_POST["edit-description-auteur"]) ? $_POST["edit-description-auteur"] : "";
             $post["tags"] = isset($_POST["edit-tags"]) ? $_POST["edit-tags"] : "";
             $post["date"] = isset($_POST["edit-date"]) ? $_POST["edit-date"] : "";
-            $post["image"] = isset($_POST["edit-image"]) ? $_POST["edit-image"] : "";
             $post["contenu"] = isset($_POST["edit-contenu"]) ? $_POST["edit-contenu"] : "";
             break;
             

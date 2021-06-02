@@ -31,10 +31,7 @@
     
     <?php include("components/footer.php") ?>
 
-</div><!-- page end -->
-
-
-    <!-- Javascript -->
+</div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
@@ -47,8 +44,5 @@
     <script src="js/numinate.min.js?ver=4.9.3"></script>
     <script src="js/main.js"></script>
     <script src="js/chart.js"></script>
-
-    <!-- Javascript end-->
-
 </body>
 </html>

@@ -20,20 +20,24 @@
 
                     setTableTitle("Liste des publications");
 
-                    setTHead(["titre", "image", "tags", "contenu"]);
+                    setTHead(["titre", "auteur", "tags", "contenu"]);
 
-                    setTBody(data.publications, "publications", ["titre", "image", "tags", "contenu"]);
+                    setTBody(data.publications, "publications", ["titre", "auteur", "tags", "contenu"], "publication");
 
                     function showForm(formName) {
-                        const doc = document.getElementById(formName);
+                        var doc = document.getElementById(formName);
                         doc.style.display = doc.style.display == "none" ? "block" : "none";
+                        
+                        doc = document.getElementById("edit-form");
+                        doc.style.display = "none";
                     }
 
                     function showEdit(id) {
                         document.getElementById("edit-form").style.display = "block";
+                        document.getElementById("add-form").style.display = "none";
 
                         document.getElementById("edit-form-real").action = `data-handler/edit.php?on=publications&id=${id}`;
-                        const fields = ["titre", "tags", "contenu", "date"];
+                        const fields = ["titre", "auteur", "description-auteur", "tags", "contenu", "date"];
                         
                         const selected = data.publications.find(i => i.id === id);
 
@@ -54,6 +58,7 @@
                     class="m-6 bg-blue-600 text-sm font-bold p-2 rounded-lg shadow text-white cursor-pointer hover:bg-blue-500 ease-in-out duration-100"
                 >
                 
+                <!-- AJOUTER UNE PUBLICATION -->
                 <div class="flex flex-wrap" style="display: none" id="add-form">
                     <div class="w-full my-6 pr-0">
                         <p class="text-xl pb-6 flex items-center">
@@ -74,13 +79,18 @@
                                 </div>
                                 
                                 <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="tags">Tags</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="tags" name="tags" type="text" required="" placeholder="Tags" aria-label="Tags">
+                                    <label class="block text-sm text-gray-600" for="auteur">Auteur</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="auteur" name="auteur" type="text" required="" placeholder="Auteur" aria-label="Auteur">
                                 </div>
                                 
                                 <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="image">Image</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="image" name="image" type="file" required="" placeholder="Lien image" aria-label="Image">
+                                    <label class="block text-sm text-gray-600" for="description-auteur">Description de l'Auteur</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="description-auteur" name="description-auteur" type="text" required="" placeholder="Description de l'Auteur" aria-label="Description de l'Auteur">
+                                </div>
+                                
+                                <div class="mt-6">
+                                    <label class="block text-sm text-gray-600" for="tags">Tags</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="tags" name="tags" type="text" required="" placeholder="Tags" aria-label="Tags">
                                 </div>
                                 
                                 <div class="mt-6">
@@ -123,6 +133,18 @@
                                     <label class="block text-sm text-gray-600" for="edit-titre">Titre</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-titre" name="edit-titre" type="text" required="" placeholder="Titre" aria-label="Titre">
                                 </div>
+
+                                <div class="mt-6">
+                                    <label class="block text-sm text-gray-600" for="edit-auteur">Auteur</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-auteur" name="edit-auteur" type="text" required="" placeholder="Auteur" aria-label="Auteur">
+                                </div>
+                                
+                                <div class="mt-6">
+                                    <label class="block text-sm text-gray-600" for="edit-description-auteur">Description de l'Auteur</label>
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-description-auteur" name="edit-description-auteur" type="text" required="" placeholder="Description de l'Auteur" aria-label="Description de l'Auteur">
+                                </div>
+                                
+                                
                                 <div class="mt-6">
                                     <label class="block text-sm text-gray-600" for="edit-tags">Tags</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-tags" name="edit-tags" type="text" required="" placeholder="Tags" aria-label="Tags">
@@ -130,10 +152,6 @@
                                 
                                 <input style="display: none" id="edit-date" name="edit-date">
                                 
-                                <div class="mt-6">
-                                    <label class="block text-sm text-gray-600" for="edit-image">Image</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="edit-image" name="edit-image" type="file" required="" placeholder="Lien image" aria-label="Image">
-                                </div>
                                 <div class="mt-6">
                                     <label class=" block text-sm text-gray-600" for="edit-contenu">Contenu</label>
                                     <textarea class="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded" id="edit-contenu" name="edit-contenu" rows="6" required="" placeholder="Saisir le contenu">

@@ -7,49 +7,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<meta name="description" content="Auxano Group" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Auxano Group</title>
-
-<!-- favicon icon -->
-<link rel="shortcut icon" href="images/favicon.png" />
-
-<!-- bootstrap -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-
-<!-- animate -->
-<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-
-<!-- owl-carousel -->
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-
-<!-- fontawesome -->
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-
-<!-- themify -->
-<link rel="stylesheet" type="text/css" href="css/themify-icons.css"/>
-
-<!-- flaticon -->
-<link rel="stylesheet" type="text/css" href="css/flaticon.css"/>
-
-<!-- prettyphoto -->
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-
-<!-- shortcodes -->
-<link rel="stylesheet" type="text/css" href="css/shortcodes.css"/>
-
-<!-- main -->
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-
-<!-- responsive -->
-<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
-
-</head>
+<?php include("components/head.php") ?>
 
 <body>
 
@@ -57,6 +15,9 @@
     <div class="page">
 
         <?php include("components/header.php") ?>
+
+        <?php include("components/title.php") ?>
+        <script>setPageTitle("Publications")</script>
 
         <!--site-main start-->
         <div class="site-main">
@@ -112,7 +73,7 @@
                 echo $output;
             ?>
 
-        </div><!--site-main end-->
+        </div>
 
         <?php include("components/footer.php") ?>
 
@@ -122,10 +83,7 @@
         </a>
         <!--back-to-top end-->
 
-    </div><!-- page end -->
-
-
-    <!-- Javascript -->
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
@@ -138,8 +96,5 @@
     <script src="js/numinate.min.js?ver=4.9.3"></script>
     <script src="js/main.js"></script>
     <script src="js/chart.js"></script>
-
-    <!-- Javascript end-->
-
 </body>
 </html>

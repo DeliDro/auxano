@@ -1,7 +1,7 @@
 <script>
     function activePage(page) {
         var classActive = "flex items-center text-white py-4 pl-6 nav-item active-nav-link";
-        document.getElementById(page).class = classActive;
+        document.getElementById(page).className = classActive;
     }
 </script>
 
@@ -24,6 +24,11 @@
         <a href="publications.php" id="aside-publications" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
             <i class="fas fa-book mr-3"></i>
             Publications
+        </a>
+
+        <a href="offres.php" id="aside-offres" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+            <i class="fas fa-book mr-3"></i>
+            Offres
         </a>
     </nav>
 </aside>

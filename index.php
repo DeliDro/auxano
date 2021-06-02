@@ -939,14 +939,11 @@
             </section>
             <!--blog-section end-->
 
-        </div><!--site-main end-->
+        </div>
 
         <?php include("components/footer.php") ?>
 
-    </div><!-- page end -->
-
-
-    <!-- Javascript -->
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
@@ -976,8 +973,5 @@
     <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-
-    <!-- Javascript end-->
-
 </body>
 </html>

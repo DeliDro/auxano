@@ -4,25 +4,25 @@
 <body class="bg-gray-100 font-family-karla flex">
 
     <?php include("components/aside.php") ?>
-    <script defer>activePage("aside-produits")</script>
+    <script defer>activePage("aside-offres")</script>
 
     <div class="relative w-full flex flex-col h-screen overflow-y-hidden">
     
         <div class="w-full h-screen overflow-x-hidden border-t flex flex-col">
             <main class="w-full flex-grow p-6">
-                <h1 class="w-full text-3xl text-black pb-6">Produits</h1>
+                <h1 class="w-full text-3xl text-black pb-6">Offres</h1>
                 
                 <?php include("components/table-template.php") ?>
                 
                 <script>
 
-                    const data = JSON.parse(<?php echo json_encode(file_get_contents("data-handler/data/produits.json"), JSON_HEX_TAG);?>);
+                    const data = JSON.parse(<?php echo json_encode(file_get_contents("data-handler/data/offres.json"), JSON_HEX_TAG);?>);
 
-                    setTableTitle("Liste des produits");
+                    setTableTitle("Liste des offres");
                     
                     setTHead(["nom", "categorie", "image", "prix", "reduction", "description"]);
 
-                    setTBody(data.produits, "produits", ["nom", "categorie", "image", "prix", "reduction", "description"], "publication");
+                    setTBody(data.offres, "offres", ["nom", "categorie", "image", "prix", "reduction", "description"], "publication");
 
                     function showForm(formName) {
                         var doc = document.getElementById(formName);
@@ -36,10 +36,10 @@
                         document.getElementById("add-form").style.display = "none";
                         document.getElementById("edit-form").style.display = "block";
 
-                        document.getElementById("edit-form-real").action = `data-handler/edit.php?on=produits&id=${id}`;
+                        document.getElementById("edit-form-real").action = `data-handler/edit.php?on=offres&id=${id}`;
                         const fields = ["nom", "prix", "reduction", "description"];
                         
-                        const selected = data.produits.find(i => i.id === id);
+                        const selected = data.offres.find(i => i.id === id);
 
                         for (const field of fields) {
                             document.getElementById("edit-" + field).value = selected[field];
@@ -51,13 +51,13 @@
                     }
 
                     function deleteData(id) {
-                        window.location = `data-handler/delete.php?on=produits&id=${id}`;
+                        window.location = `data-handler/delete.php?on=offres&id=${id}`;
                     }
                 </script>
                     
                 <input
                     type="button"
-                    value="Créer un produit"
+                    value="Créer une offre"
                     onclick="showForm('add-form')"
                     class="m-6 bg-blue-600 text-sm font-bold p-2 rounded-lg shadow text-white cursor-pointer hover:bg-blue-500 ease-in-out duration-100"
                 >
@@ -65,14 +65,14 @@
                 <div class="flex flex-wrap" style="display: none" id="add-form">
                     <div class="w-full my-6 pr-0">
                         <p class="text-xl pb-6 flex items-center">
-                            Ajouter un produit
+                            Ajouter une offre
                             <a class="text-red-500 ml-6 text-sm cursor-pointer" onclick="showForm('add-form')">Annuler</a>
                         </p>
                         
                         <div class="leading-loose">
                             <form
                                 method="POST"
-                                action="data-handler/add.php?on=produits"
+                                action="data-handler/add.php?on=offres"
                                 class="p-10 bg-white rounded shadow-xl"
                             >
                                 <div>
@@ -91,9 +91,9 @@
                                         <select name="select-categorie" id="select-categorie">
                                             <script>
                                                 var categories = JSON
-                                                    .parse(<?php echo json_encode(file_get_contents("data-handler/data/produits.json"), JSON_HEX_TAG) ?>)
-                                                    .produits
-                                                    .map(produit => produit.categorie);
+                                                    .parse(<?php echo json_encode(file_get_contents("data-handler/data/offres.json"), JSON_HEX_TAG) ?>)
+                                                    .offres
+                                                    .map(offre => offre.categorie);
                                                 
                                                 document.getElementById("select-categorie").innerHTML = categories
                                                     .map(categorie => `<option>${categorie}</option>`)
@@ -135,7 +135,7 @@
                 <div class="flex flex-wrap" style="display: none" id="edit-form">
                     <div class="w-full my-6 pr-0">
                         <p class="text-xl pb-6 flex items-center">
-                            Modifier un produit
+                            Modifier une offre
                             <a class="text-red-500 ml-6 text-sm cursor-pointer" onclick="showForm('edit-form')">Annuler</a>
                         </p>
                         

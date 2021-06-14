@@ -60,7 +60,7 @@
                     <div class="w-full my-6 pr-0">
                         <p class="text-xl pb-6 flex items-center">
                             Ajouter une commande
-                            <a class="text-red-500 ml-6 text-sm cursor-pointer" onclick="showForm('add-form')">Annuler</a>
+                            <a class="text-red-500 ml-6 text-sm " onclick="showForm('add-form')">Annuler</a>
                         </p>
 
                         <div class="leading-loose">

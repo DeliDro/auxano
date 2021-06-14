@@ -1,9 +1,7 @@
 <?php session_start() ?>
+<?php include("utils.php") ?>
 <?php
-    $publications = json_decode(
-        file_get_contents("admin/data-handler/data/publications.json"),
-        JSON_HEX_TAG
-    );
+    $publications = getPublications();
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -31,44 +29,39 @@
                     };
                     return implode("", $tags);
                 }
-
-                $publications = $publications["publications"];
-                $output = "";
+                $output = '<section class="ttm-row blog-left-img-section clearfix"><div class="container"><div class="row">';
                 
                 for ($i=0; $i < count($publications); $i++) { 
                     # code...
                     $item = $publications[$i];
-                    $output = '
-                    <section class="ttm-row blog-left-img-section clearfix">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
-                                    <div class="row no-gutters featured-imagebox featured-imagebox-post ttm-box-view-left-image box-shadow">
-                                        <div class="col-lg-5 col-md-12 col-sm-6 ttm-featured-img-left">
-                                            <div class="featured-thumbnail"> 
-                                                <img class="img-fluid" src="'. $item["image"] .'" alt="image"> 
-                                            </div> 
-                                        </div>
-                                        <div class="col-lg-7 col-md-12 col-sm-6 featured-content featured-content-post">
-                                            <span class="category">
-                                                '. getTags($item["tags"]) .'
-                                            </span>
-                                            <div class="post-title featured-title">
-                                                <h5><a href="publication.php?id='. $item["id"] .'">'. $item["titre"] .'</a></h5>
-                                            </div>
-                                            <div class="featured-desc ttm-box-desc">
-                                                <p>'. substr($item["contenu"], 0, 100) .'...</p>
-                                            </div>
-                                            <div class="post-meta">
-                                                <span class="ttm-meta-line"><i class="fa fa-calendar"></i>'. $item["date"] .'</a></span>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-imagebox-post end-->
+                    $output =  $output . '
+                        <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                            <div class="row no-gutters featured-imagebox featured-imagebox-post ttm-box-view-left-image box-shadow">
+                                <div class="col-lg-5 col-md-12 col-sm-6 ttm-featured-img-left">
+                                    <div class="featured-thumbnail"> 
+                                        <img class="img-fluid" src="'. $item["image"] .'" alt="image"> 
+                                    </div> 
                                 </div>
-                            </div>
-                        </div>
-                    </section>';
+                                <div class="col-lg-7 col-md-12 col-sm-6 featured-content featured-content-post">
+                                    <span class="category">
+                                        '. getTags($item["tags"]) .'
+                                    </span>
+                                    <div class="post-title featured-title">
+                                        <h5><a href="publication.php?id='. $item["id"] .'">'. $item["titre"] .'</a></h5>
+                                    </div>
+                                    <div class="featured-desc ttm-box-desc">
+                                        <p>'. substr($item["contenu"], 0, 100) .'...</p>
+                                    </div>
+                                    <div class="post-meta">
+                                        <span class="ttm-meta-line"><i class="fa fa-calendar"></i>'. $item["date"] .'</a></span>
+                                    </div>
+                                </div>
+                            </div><!-- featured-imagebox-post end-->
+                        </div>';
                 }
+                
+                $output = $output . "</div></div></section>";
+                
                 echo $output;
             ?>
 

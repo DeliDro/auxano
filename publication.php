@@ -1,6 +1,6 @@
 <?php session_start() ?>
-<?php $publications = json_encode(file_get_contents("admin/data-handler/data/publications.json"), JSON_HEX_TAG); ?>
-<script>const publication = JSON.parse(<?php echo $publications ?>).publications.find(i => i.id === <?php echo (int) $_GET["id"] ?>);</script>
+<?php include("utils.php") ?>
+<script>const publication = <?php echo toJS(getPublication()); ?></script>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -48,9 +48,8 @@
                                     let output = [
                                         '<div class="ttm-blog-classic-content single-blog">',
                                         ...publication.contenu.split("\r\n")
-                                    ];
-                                    
-                                    output = output.map(row => formatRow(row) );
+                                        ]
+                                        .map(row => formatRow(row) );
                                     
                                     output.push('<div class="separator"><div class="sep-line solid mt-30 mb-30"></div></div></div>')
                                     output = output.join("");

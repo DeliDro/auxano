@@ -16,23 +16,39 @@
 
         <!--site-main start-->
         <div class="site-main">
-            <!-- sidebar -->
-            <div class="sidebar ttm-sidebar-left ttm-bgcolor-white clearfix">
-                <div class="container">
-                    <!-- row -->
-                    <div class="row d-block">
-                        <div class="col-lg-3 widget-area ttm-bgcolor-grey">
-                            <aside class="widget widget-nav-menu">
-                                <ul class="widget-menu">
-                                    <li><a href="produits.php">Produits</a></li>
-                                    <li class="active"><a href="services-auxano.php">Services</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                    </div><!-- row end -->
-                </div>
-            </div>
-            <!-- sidebar end -->
+          <section class="element-row element-style clearfix mt_40">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-12">
+                          <div class="ttm-tabs ttm-tab-style-vertical row">
+                              <div class="col-lg-4 col-md-4">
+                                  <!-- tabs -->
+                                  <ul class="tabs">
+                                      <li class="tab active"><a href="#">Section 1</a></li>
+                                      <li class="tab"><a href="#">Section 2</a></li>
+                                      <li class="tab"><a href="#">Section 3</a></li>
+                                      <li class="tab"><a href="#">Section 4</a></li>
+                                  </ul>
+                              </div>
+                              <div class="content-tab col-lg-8 col-md-8 res-991-plr-15">
+                                  <div class="content-inner">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Ut enim ad minim veniam, quis nostrud.</p>
+                                  </div>
+                                  <div class="content-inner">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Ut enim ad minim veniam, quis nostrud.</p>
+                                  </div>
+                                  <div class="content-inner">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Ut enim ad minim veniam, quis nostrud.</p>
+                                  </div>
+                                  <div class="content-inner">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Ut enim ad minim veniam, quis nostrud.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </diV>
+              </div>
+          </section>
         </div>
 
         <?php include("components/footer.php") ?>

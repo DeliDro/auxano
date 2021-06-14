@@ -7,9 +7,19 @@
             "description-auteur": "DESCRIPTION",
             "tags": "soci\u00e9t\u00e9, rdv",
             "date": "30\/05\/2021",
-            "image": "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg",
+            "image": "https:\/\/miro.medium.com\/max\/1200\/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg",
             "contenu": "[titre] Bienvenue\r\nCeci cela\r\n[image] https:\/\/www.justifit.fr\/wp-content\/uploads\/2020\/06\/Droit-a-limage.jpg\r\n[citation] Citation\r\ncontenu\r\ncontenu\r\n"
+        },
+        {
+            "date": "03\/06\/2021",
+            "titre": "Publication 1",
+            "auteur": "Deli Dro",
+            "description-auteur": "Personne responsable des choses",
+            "tags": "tic, informatique",
+            "image": "https:\/\/miro.medium.com\/max\/1200\/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg",
+            "contenu": "                                    [titre] Titre de l'article\r\n                                        [citation] Une phrase importante\r\n                                        [image] Une image \u00e0 ins\u00e9rer\r\n                                        Texte\r\n                                    ",
+            "id": 11
         }
     ],
-    "maxId": 10
+    "maxId": 11
 }

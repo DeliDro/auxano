@@ -4,10 +4,9 @@
             "id": 1,
             "client": "test",
             "contact": "test",
-            "commandes": "test",
-            "facture": "test366"
+            "commandes": [{"idProduit": 1, "quantite": 2}],
+            "facture": 122000
         }
     ],
-    "maxID": 0,
     "maxId": 1
 }

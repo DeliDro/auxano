@@ -8,7 +8,16 @@
             "prix": "2500",
             "reduction": "1459",
             "description": "MA DESCRIPTION"
+        },
+        {
+            "nom": "Ray Ban Gold Edition",
+            "image": "Capture d\u2019\u00e9cran 2021-05-01 180548.png",
+            "prix": "25000",
+            "reduction": "1500",
+            "description": "Belles lunettes \u00e0 emporter partout avec vous",
+            "id": 11,
+            "categorie": "Lunettes"
         }
     ],
-    "maxId": 10
+    "maxId": 11
 }

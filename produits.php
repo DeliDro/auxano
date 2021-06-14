@@ -40,9 +40,16 @@
                                         <option value="price">Plus ancien</option>
                                     </select>
                                 </div>
-                            </form>-->
+                            </form>-->;
                             
                             <!-- Produits -->
+                            <input
+                                type="button"
+                                id="passerCommande"
+                                onclick="goToCheckout()"
+                                value="Passer ma commande"
+                                style="border-radius:.5rem; background-color:#0DB2D6; font-weight:bold; padding: 8px 20px 8px; margin: 20px; margin-top:0px"
+                            >
                             <div id="liste-produits" class="products row">
                                 <?php
                                     $produits = $produits["produits"];
@@ -51,10 +58,10 @@
                                     for ($i=0; $i < count($produits); $i++) { 
                                         # code...
                                         $item = $produits[$i];
-                                        $output = $output .'<div class="product col-lg-4 col-md-6 col-xs-12"><div class="ttm-product-box">
-                                                <div class="ttm-product-box-inner">
+                                        $output = $output .'<div class="product col-lg-4 col-md-6 col-xs-12" name='. $item["categorie"] .'><div class="ttm-product-box">
+                                                <div class="ttm-product-box-inner" style="cursor:pointer">
                                                     <div class="ttm-shop-icon">
-                                                        <div class="product-btn add-to-cart-btn" onclick="addToBasket("'. $item["id"] .'")">Ajouter au panier</div>
+                                                        <div class="product-btn add-to-cart-btn" onclick="addToBasket('. ((int) $item["id"]) .')">Ajouter au panier</div>
                                                     </div>
                                                     <div class="ttm-product-image-box">
                                                         <img class="img-fluid" src="'. $item["image"] .'">
@@ -102,9 +109,34 @@
                             <aside class="widget widget-categories">
                                 <h3 class="widget-title">Catégories</h3>
                                 <ul>
-                                    <li><a href="#">Catégorie 1</a></li>
-                                    <li><a href="#">Catégorie 2</a></li>
-                                    <li><a href="#">Catégorie 3</a></li>
+                                    <?php
+                                        $categories = array();
+
+                                        for ($i=0; $i < count($produits); $i++) {
+                                            $categorie = $produits[$i]["categorie"];
+                                            
+                                            if (isset($categories[$categorie])) {
+                                                $categories[$categorie] += 1;
+                                            }
+                                            
+                                            else {
+                                                $categories[$categorie] = 1;
+                                            }                                            
+                                        }
+
+                                        $output = "";
+                                        $keys = array_keys($categories);
+                                        for ($i = 0; $i < count($categories); $i++) {                                         
+                                            $output = $output
+                                                . '<li style="cursor:pointer;" onclick="filterCategorie(\''. $keys[$i] .'\')">'
+                                                . $keys[$i]
+                                                . "&nbsp;&nbsp;("
+                                                . $categories[$keys[$i]]
+                                                . ')</li>';
+                                        }
+                                        
+                                        echo $output;
+                                    ?>
                                 </ul>
                             </aside>
                         </div>
@@ -117,7 +149,7 @@
         </div>
 
         <?php include("components/footer.php") ?>
-
+        <?php include("produits-handler.php") ?>
     </div>
 
     <script src="js/jquery.min.js"></script>

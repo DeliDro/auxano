@@ -99,25 +99,24 @@
                                                 </tr>
                                             </thead>
                                             <tbody id="produits-commande">
-                                                <script>
-                                                    const commande = JSON.parse(sessionStorage.getItem("commande") || "{}");
-                                                    const keys = Object.keys(commande);
+                                                <?php
+                                                    $commande = $_SESSION["commande"];
                                                     
-                                                    document.getElementById("produits-commande").innerHTML = keys
-                                                        .map(key => `
-                                                            <tr class="cart_item">
-                                                                <td class="product-name">${key}&nbsp;
-                                                                    <strong class="product-quantity">× ${commande[key]}</strong>
-                                                                </td>
-                                                                <td class="product-total">
-                                                                    <span class="Price-amount amount">
-                                                                        0 <span class="Price-currencySymbol">F CFA</span>
-                                                                    </span>
-                                                                </td>
-                                                            </tr>
-                                                        `)
-                                                        .join("")
-                                                </script>
+                                                    // $produit = getProduit($commande[0]);
+                                                    print_r($commande[0]ù);
+                                                    // for ($i=0; $i < count($commande); $i++) {
+                                                    //     echo '<tr class="cart_item">
+                                                    //         <td class="product-name">'. $produit["nom"] .'&nbsp;
+                                                    //             <strong class="product-quantity">× '. $commande[$keys[$i]] .'</strong>
+                                                    //         </td>
+                                                    //         <td class="product-total">
+                                                    //             <span class="Price-amount amount">
+                                                    //                 '. $produit["prix"] .' <span class="Price-currencySymbol">F CFA</span>
+                                                    //             </span>
+                                                    //         </td>
+                                                    //     </tr>';
+                                                    // }
+                                                ?>
                                             </tbody>
                                             <tfoot>
                                                 <tr class="order-total">

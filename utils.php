@@ -21,23 +21,24 @@
     }
 
     function getProduit($id) {
+        $produit = NULL;
+        $produits = getProduits();
+
+        // Affichage d'un produit passé en URL
         if (!$id) {
-            $produit = array_filter(getProduits(), "isProduit");
+            $produit = array_filter($produits, "isProduit");
+            if ($produit) { return $produit[0]; }
+            return;
         }
 
+        // Id du produit passé en paramètre
         else {
-            $produit = getProduitFromId($id);
+            for ($i=0; $i < count($produits); $i++) { 
+                if ($produits[$i]["id"] === $id) {
+                    return $produits[$i];
+                }
+            }
         }
-
-        if ($produit) {
-            return $produit[0];
-        }
-
-        return;
-    }
-
-    function getProduitFromId($id) {
-        return NULL;
     }
 
     function getProduits() {

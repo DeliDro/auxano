@@ -1,14 +1,14 @@
 <script>
-    const basket = {};
+    const basket = [];
     var facture = 0;
 
     function goToCheckout() {
-        sessionStorage.setItem("commande", JSON.stringify(basket));
-        window.location.href = "/ma-commande.php";
+        window.location.href = "/precommande.php?data=" + JSON.stringify(basket);
     }
 
     function addToBasket(id) {
-        basket[id] = basket[id] ? basket[id] + 1 : 1;
+        produit = basket.find(i => i.id === id);
+        produit ? produit.count += 1 : basket.push({id, count: 1});
     }
 
     function filterCategorie(categorie) {

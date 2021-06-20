@@ -4,7 +4,7 @@
         file_get_contents("admin/data-handler/data/produits.json"),
         JSON_HEX_TAG
     );
-?>
+    ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -137,6 +137,7 @@
                                         
                                         echo $output;
                                     ?>
+                                    <?php include("produits-handler.php") ?>
                                 </ul>
                             </aside>
                         </div>
@@ -149,7 +150,6 @@
         </div>
 
         <?php include("components/footer.php") ?>
-        <?php include("produits-handler.php") ?>
     </div>
 
     <script src="js/jquery.min.js"></script>
